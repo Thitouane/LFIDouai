@@ -1,5 +1,4 @@
 .tab-content {
-  display: flex;
   justify-content: center;
   padding: 20px;
   min-height: 800px;
@@ -10,8 +9,6 @@
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
 }
-
-/* ...existing code... */
 
 @media (max-width: 768px) {
   .content {

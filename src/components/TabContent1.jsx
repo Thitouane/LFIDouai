@@ -19,24 +19,27 @@ const TabContent1 = () => {
     <section>
       <h2>Actualité</h2>
       <div className="tab-content">
-        <div 
+        <div
           className="fb-page"
           data-href="https://www.facebook.com/LFIDouaisis/"
           data-tabs="timeline"
+          data-width="800"   // 👈 largeur souhaitée
           data-height="800"
           data-small-header="true"
           data-hide-cover="true"
           data-show-facepile="true"
           data-adapt-container-width="true"
         >
-          <blockquote 
+          <blockquote
             cite="https://www.facebook.com/LFIDouaisis/"
             className="fb-xfbml-parse-ignore"
           >
-            <a href="https://www.facebook.com/LFIDouaisis/">LFI Douaisis</a>
+            <a href="https://www.facebook.com/LFIDouaisis/">
+              LFI Douaisis
+            </a>
           </blockquote>
         </div>
-      </div>   
+      </div>
     </section>
   );
 };

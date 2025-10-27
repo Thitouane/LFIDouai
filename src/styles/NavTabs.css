@@ -1,0 +1,84 @@
+.navtabs {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: transparent;
+  overflow: hidden;
+  align-items: flex-start;
+}
+
+.navtabs button:first-child {
+  flex: 0.25; /* Les autres boutons ont flex: 1 par défaut */
+}
+
+/* Ajustement pour l'état shrink si nécessaire */
+.navtabs.shrink button:first-child {
+  flex: 0.7;
+}
+
+/* Style de base */
+.navtabs button {
+  flex: 1;
+  height: 60px;
+  border: none;
+  color: #fff; /* <- texte sombre pour être lisible sur fond clair */
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  border-bottom: 3px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  background-clip: padding-box;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Survol : léger effet de lumière */
+.navtabs button:hover {
+  filter: brightness(1.1);
+}
+
+/* Onglet actif */
+.navtabs button.active {
+  height: 75px;
+  padding-bottom: 1.5rem;
+  border-bottom: 4px solid #fff; /* bord sombre pour être visible */
+  z-index: 2;
+}
+
+/* ...existing code... */
+
+@media (max-width: 768px) {
+  navtabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    height: auto;
+    z-index: 10;
+  }
+
+  .navtabs button {
+    padding: 12px 8px;
+    height: 60px;
+  }
+
+  .navtabs button:first-child {
+    flex: 1; /* égalise la taille sur mobile */
+  }
+
+  .tab-label {
+    font-size: 0.8rem;
+  }
+
+  /* Ajuste la taille de l'icône home sur mobile */
+  .tab-label svg {
+    font-size: 24px !important;
+  }
+}

@@ -2,26 +2,36 @@ import React, { useEffect } from 'react';
 import '../styles/TabContent1.css';
 
 const TabContent1 = () => {
-  
+
   useEffect(() => {
-    const parseFB = () => {
-      if (window.FB && window.FB.XFBML) {
+    const loadFB = () => {
+      if (window.FB) {
         window.FB.XFBML.parse();
+        return;
       }
+
+      // Injecte le SDK Facebook s'il n'existe pas encore
+      const script = document.createElement("script");
+      script.src =
+        "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v17.0";
+      script.async = true;
+      script.defer = true;
+      script.onload = () => {
+        window.FB.init({ xfbml: true, version: "v17.0" });
+      };
+      document.body.appendChild(script);
     };
 
-    // 1️⃣ parse au premier affichage
-    const timeout = setTimeout(parseFB, 300);
+    loadFB();
 
-    // 2️⃣ re-parse après chaque resize (mobile rotation etc.)
-    window.addEventListener("resize", parseFB);
+    // Re-parse après resize pour éviter le rendu compressé
+    window.addEventListener("resize", loadFB);
 
     return () => {
-      clearTimeout(timeout);
-      window.removeEventListener("resize", parseFB);
+      window.removeEventListener("resize", loadFB);
     };
   }, []);
-
+  
   return (
     <section>
       <h2>Actualité</h2>

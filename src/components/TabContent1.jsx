@@ -20,7 +20,6 @@ const TabContent1 = () => {
             data-width="600"
             data-height="800"
             data-small-header="true"
-            data-adapt-container-width="true"
             data-hide-cover="true"
             data-show-facepile="true"
             >

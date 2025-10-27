@@ -6,21 +6,20 @@
 }
 
 .fb-page {
+  width: 100%;
+  max-width: 500px;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
 }
 
+/* Version mobile */
 @media (max-width: 768px) {
-  .content {
+  .tab-content {
     padding: 16px;
-    margin-bottom: 60px; /* espace pour la navbar fixée en bas */
   }
 
-  /* Ajuste la taille du contenu Facebook */
   .fb-page {
-    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-    width: 100% !important;
     max-width: 100%;
   }
 }

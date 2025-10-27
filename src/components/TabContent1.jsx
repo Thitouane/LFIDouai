@@ -4,58 +4,37 @@ import '../styles/TabContent1.css';
 const TabContent1 = () => {
 
   useEffect(() => {
-    const loadFB = () => {
-      if (window.FB) {
+    const interval = setInterval(() => {
+      if (window.FB && document.querySelector(".fb-page")) {
         window.FB.XFBML.parse();
-        return;
+        clearInterval(interval); // ✅ évite les boucles infinies
       }
+    }, 500);
 
-      // Injecte le SDK Facebook s'il n'existe pas encore
-      const script = document.createElement("script");
-      script.src =
-        "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v17.0";
-      script.async = true;
-      script.defer = true;
-      script.onload = () => {
-        window.FB.init({ xfbml: true, version: "v17.0" });
-      };
-      document.body.appendChild(script);
-    };
-
-    loadFB();
-
-    // Re-parse après resize pour éviter le rendu compressé
-    window.addEventListener("resize", loadFB);
+    // re-parse après resize (rare mais utile)
+    const resizeHandler = () => window.FB && window.FB.XFBML.parse();
+    window.addEventListener("resize", resizeHandler);
 
     return () => {
-      window.removeEventListener("resize", loadFB);
+      clearInterval(interval);
+      window.removeEventListener("resize", resizeHandler);
     };
   }, []);
-  
+
   return (
     <section>
       <h2>Actualité</h2>
       <div className="tab-content">
-        <div
-          className="fb-page"
-          data-href="https://www.facebook.com/LFIDouaisis/"
-          data-tabs="timeline"
-          data-width="800"   // 👈 largeur souhaitée
-          data-height="800"
-          data-small-header="true"
-          data-hide-cover="true"
-          data-show-facepile="true"
-          data-adapt-container-width="true"
-        >
-          <blockquote
-            cite="https://www.facebook.com/LFIDouaisis/"
-            className="fb-xfbml-parse-ignore"
-          >
-            <a href="https://www.facebook.com/LFIDouaisis/">
-              LFI Douaisis
-            </a>
-          </blockquote>
-        </div>
+        <iframe
+          title="Facebook"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLFIDouaisis&tabs=timeline&width=500&height=800&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true"
+          width="500"
+          height="800"
+          style={{ border: "none", overflow: "hidden", width: "500" }}
+          scrolling="no"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
       </div>
     </section>
   );

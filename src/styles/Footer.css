@@ -2,7 +2,7 @@
 .site-footer {
   background: #fff;
   color: #fff;
-  padding: 18px 24px;
+  padding: 18px 0; /* Retiré le padding horizontal */
   width: 100%;
   position: relative;
   height: 72px;
@@ -11,12 +11,28 @@
 }
 
 .footer-inner {
-  max-width: 1200px;
+  width: 100%; /* Changé de max-width à width */
+  padding: 0 24px; /* Ajouté du padding horizontal */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  box-sizing: border-box;
+}
+
+.left-button-footer {
+  margin-left: -8px; /* Pour coller au bord gauche */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer-right {
+  margin-right: -24px; /* Pour coller au bord droit */
+  padding-right: 24px;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
 }
 
 .left-button-footer {
@@ -32,12 +48,6 @@
   font-weight: 600;
   color: #111;
   white-space: nowrap;
-}
-
-.footer-right {
-  display: flex;
-  gap: 0.6rem;
-  align-items: center;
 }
 
 /* Images dans les boutons */
@@ -68,24 +78,62 @@
   box-shadow: 0 -6px 18px rgba(0,0,0,0.15);
 }
 
-/* Version mobile */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .site-footer {
     position: fixed;
+    bottom: 0;
     left: 0;
     right: 0;
-    margin: 0;
-    background: #111;
-    z-index: 15; /* Entre le contenu et la navbar */
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--background-color, #fff);
+    padding: 10px;
   }
+
   .footer-inner {
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0 16px;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
   }
-  
+
+  .left-button-footer {
+    padding: 0 10px;
+    font-size: 14px;
+    height: 36px;
+  }
+
+  .footer-right {
+    gap: 0.4rem;
+  }
+
+  .left-button-footer img,
+  .footer-right img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Supprimez ou commentez ces lignes pour réactiver l'affichage
   .left-button-footer,
   .footer-right {
     display: none;
+  }
+  */
+}
+
+/* Ajoutez ces règles pour les très petits écrans */
+@media screen and (max-width: 400px) {
+  .left-button-footer {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+
+  .footer-right {
+    gap: 0.3rem;
+  }
+
+  .left-button-footer img,
+  .footer-right img {
+    width: 18px;
+    height: 18px;
   }
 }

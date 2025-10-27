@@ -17,12 +17,13 @@ const TabContent1 = () => {
         <div className="fb-page" 
             data-href="https://www.facebook.com/LFIDouaisis/"
             data-tabs="timeline"
-            data-width="500"
+            data-width="600"
             data-height="800"
             data-small-header="true"
             data-adapt-container-width="true"
             data-hide-cover="true"
-            data-show-facepile="true">
+            data-show-facepile="true"
+            >
           <blockquote cite="https://www.facebook.com/LFIDouaisis/" 
                       className="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/LFIDouaisis/">LFI Douaisis</a>

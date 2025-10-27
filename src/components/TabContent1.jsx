@@ -2,17 +2,24 @@ import React, { useEffect } from 'react';
 import '../styles/TabContent1.css';
 
 const TabContent1 = () => {
-
+  
   useEffect(() => {
-    const checkFB = () => {
-      if (window.FB && document.querySelector('.fb-page')) {
+    const parseFB = () => {
+      if (window.FB && window.FB.XFBML) {
         window.FB.XFBML.parse();
-      } else {
-        // Réessaie après un petit délai si FB n’est pas encore prêt
-        setTimeout(checkFB, 500);
       }
     };
-    checkFB();
+
+    // 1️⃣ parse au premier affichage
+    const timeout = setTimeout(parseFB, 300);
+
+    // 2️⃣ re-parse après chaque resize (mobile rotation etc.)
+    window.addEventListener("resize", parseFB);
+
+    return () => {
+      clearTimeout(timeout);
+      window.removeEventListener("resize", parseFB);
+    };
   }, []);
 
   return (

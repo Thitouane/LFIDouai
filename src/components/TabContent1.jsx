@@ -17,7 +17,7 @@ const TabContent1 = () => {
         <div className="fb-page" 
             data-href="https://www.facebook.com/LFIDouaisis/"
             data-tabs="timeline"
-            data-width="600"
+            data-width="500"
             data-height="800"
             data-small-header="true"
             data-adapt-container-width="true"

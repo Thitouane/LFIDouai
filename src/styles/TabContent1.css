@@ -23,4 +23,8 @@
   .fb-page {
     max-width: 100%;
   }
+  
+  .fb-page iframe {
+    width: 100% !important;
+  }
 }

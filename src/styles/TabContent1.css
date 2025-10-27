@@ -6,7 +6,7 @@
 }
 
 .fb-page {
-  max-width: 500px;
+  max-width: 100%;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
@@ -14,6 +14,7 @@
 .fb-page iframe {
   width: 100% !important;
 }
+
 /* Version mobile */
 @media (max-width: 768px) {
   .tab-content {
@@ -23,7 +24,6 @@
   .fb-page {
     max-width: 100%;
   }
-  
   .fb-page iframe {
     width: 100% !important;
   }

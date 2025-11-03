@@ -7,7 +7,7 @@
 }
 
 .programme-header h1 {
-  font-size: 2.25rem;
+  font-size: clamp(1rem, 5vw, 2.25rem);
   margin-bottom: 0.5rem;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .theme-title {
-  font-size: 1.15rem;
+  font-size: clamp(0.5rem, 5vw, 1.15rem);
   margin-bottom: 0.5rem;
 }
 
@@ -87,7 +87,7 @@
 
 .theme-cta {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: clamp(0.5rem, 5vw, 0.95rem);
   color: #c0392b; /* accent color */
 }
 
@@ -111,7 +111,7 @@
 }
 .theme-hero-overlay h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 
 /* theme-content */

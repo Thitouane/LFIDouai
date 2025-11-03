@@ -11,3 +11,19 @@
   width: 100%;
   padding: 0 4rem 2rem;
 }
+
+
+@media (max-width: 768px) {
+  .menu-footer {
+    flex-direction: column; /* empile le texte + image */
+  }
+
+  /* Pour mettre l’image au-dessus */
+  .image-block {
+    order: -1; /* <--- fait passer l’image avant le texte */
+  }
+
+  .text-block {
+    text-align: center;
+  }
+}

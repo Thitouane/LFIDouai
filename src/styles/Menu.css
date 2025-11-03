@@ -18,7 +18,7 @@
   background: none;
   border: none;
   color: white;
-  font-size: 2rem;
+  font-size: clamp(1rem, 5vw, 2rem);
   cursor: pointer;
 }
 
@@ -67,7 +67,7 @@ body.dark-mode .overlay {
 
 .overlay-menu a {
   text-decoration: none;
-  font-size: 4em;
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 500;
   transition: color 0.2s ease;
 }
@@ -94,7 +94,7 @@ body.dark-mode  a:hover {
   text-decoration: none;
   color: white;
   font-weight: 00;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
   letter-spacing: -1px;
   line-height: 1.1;
   transition: opacity 0.3s;
@@ -118,16 +118,17 @@ body.dark-mode  a:hover {
   color: black;
   background-color: #43AC59;
   padding: 0 8px; 
-  font-size: 1.5rem;
+  font-size: clamp(0.75rem, 5vw, 1.5rem);
 }
 .dfp-menu {
   color: black;
   background-color: #FFC700;
   padding: 0 8px; 
+  font-size: clamp(0.5rem, 5vw, 1rem);
 }
 
 .menu-socials a img {
-  height: 48px;
+  height: clamp(24px, 5vw, 48px);
   padding-right: 5px;
   filter: invert(1);
 }
@@ -172,4 +173,10 @@ body.dark-mode .menu-socials a img {
 .theme-toggle.dark .slider {
   left: calc(100% - 27px);
   background: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .dfp-menu {
+    font-size: 0.75rem;
+  }
 }

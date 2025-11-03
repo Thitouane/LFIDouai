@@ -18,7 +18,7 @@
 }
 .apropos-block {
   max-width: 800px;
-  font-size: 1.2rem;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
   line-height: 1.2;
   padding: 0rem 2rem;
 }
@@ -32,5 +32,20 @@
 .bold {
   color: #43AC59;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
+}
+
+
+@media (max-width: 768px) {
+  .content-apropos  {
+    flex-direction: column; 
+  }
+
+  .beffroi {
+    order: -1; 
+  }
+
+  .apropos-block {
+    padding: 2rem 0rem;
+  }
 }

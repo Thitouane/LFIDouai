@@ -14,13 +14,13 @@
 }
 
 .rejoindre-block h2 {
-  font-size: 2.5rem;
+  font-size: clamp(1.25rem, 5vw, 2.5rem);
   font-weight: 800;
   margin-bottom: 1rem;
 }
 
 .rejoindre-block p {
-  font-size: 1.2rem;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
   margin-bottom: 2rem;
 }
 
@@ -32,7 +32,7 @@
   padding: 0.8rem 1.8rem;
   border-radius: 30px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: clamp(0.75rem, 5vw, 1.5rem);
   transition: all 0.3s ease;
   margin-top: 1rem;
 }
@@ -51,7 +51,7 @@
 
 .agir-content {
   max-width: 800px;
-  font-size: 1.2rem;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
   line-height: 1.5;
   padding: 0rem 2rem;
 }
@@ -60,4 +60,14 @@
   height: 256px;
   width: fit-content;
   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .rejoindre-setion  {
+    flex-direction: column; 
+  }
+
+  .agir-content {
+    padding: 2rem 0rem;
+  }
 }

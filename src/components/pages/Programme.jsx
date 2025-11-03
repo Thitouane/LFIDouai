@@ -2,7 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Programme.css";
 
-import melenchon from '../../assets/melenchon.jpg';
+import mobiliteActive from '../../assets/mobiliteActive.jpg';
+import logement from '../../assets/logement.jpg';
+import surete from '../../assets/surete.jpg';
+import servicePublique from '../../assets/servicePublique.jpg';
+import asso from '../../assets/asso.jpg';
+import ecole from '../../assets/ecole.jpg';
+import emploi from '../../assets/emploi.jpeg';
+import ecolo from '../../assets/ecolo.jpg';
+import democratie from '../../assets/democratie.jpg';
+import antiracisme from '../../assets/antiracisme.jpg';
 
 /**
  * Liste des thèmes — adapte titres, slugs, images et descriptions.
@@ -14,61 +23,61 @@ export default function Programme() {
     {
       title: "Antiracisme",
       slug: "antiracisme",
-      image: "../../assets/logo-douaisis.png",
+      image: antiracisme,
       excerpt: "Douai antiraciste, féministe et LGBTI : une ville fière de sa diversité, forte de ses différences",
     },
     {
       title: "Démocratie locale",
       slug: "democratie-locale",
-      image: {melenchon},
+      image: democratie,
       excerpt: "La démocratie locale : commencer la révolution citoyenne",
     },
     {
       title: "Écologie populaire",
       slug: "ecologie-populaire",
-      image: {melenchon},
+      image: ecolo,
       excerpt: "L’écologie populaire : garantir notre avenir en commun",
     },
     {
       title: "Économie et emploi",
       slug: "economie-et-emploi",
-      image: {melenchon},
+      image: emploi,
       excerpt: "L’économie et l’emploi : répondre aux besoins des habitants",
     },
     {
       title: "Enfance et éducation",
       slug: "enfance-et-education",
-      image: {melenchon},
+      image: ecole,
       excerpt: "L’enfance et l’éducation : le meilleur pour les futures générations",
     },
     {
       title: "Engagement associatif",
       slug: "engagement-associatif",
-      image: {melenchon},
+      image: asso,
       excerpt: "L’engagement associatif, sportif et culturel : le pilier d’un contre-pouvoir populaire",
     },
     {
       title: "Entraide et services publics",
       slug: "entraide-et-services-publiques",
-      image: {melenchon},
+      image: servicePublique,
       excerpt: "L’entraide et les services publics : mettre la solidarité au cœur de l’action municipale",
     },
     {
       title: "Logement",
       slug: "logement",
-      image: {melenchon},
+      image: logement,
       excerpt: "Le logement : un droit collectif d’habiter de façon digne et durable",
     },
     {
       title: "Mobilité active",
       slug: "mobilite-active",
-      image: {melenchon},
+      image: mobiliteActive,
       excerpt: "La mobilité active : bouger autrement, respirer mieux",
     },
     {
       title: "Sûreté",
       slug: "surete",
-      image: {melenchon},
+      image: surete,
       excerpt: "La sûreté : assurer le droit à la sûreté pour toutes et tous",
     },
   ];
@@ -78,7 +87,7 @@ export default function Programme() {
       <header className="programme-header">
         <h1 className="lfigreen">Le programme</h1>
         <p className="programme-intro">
-          Découvrez nos grands thèmes et leurs propositions — cliquez sur une carte pour en savoir plus.
+          Découvrez nos grands thèmes et leurs propositions.
         </p>
       </header>
 
@@ -87,7 +96,7 @@ export default function Programme() {
           <article className="theme-card" key={t.slug}>
             <Link to={`/programme/${t.slug}`} className="theme-link" aria-label={`Voir ${t.title}`}>
               <div className="theme-media">
-                <img src={melenchon} alt={t.title} />
+                <img src={t.image} alt={t.title} />
               </div>
               <div className="theme-body">
                 <h2 className="theme-title">{t.title}</h2>

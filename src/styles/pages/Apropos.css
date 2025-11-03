@@ -1,0 +1,36 @@
+.apropos-section {
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.apropos-title {
+  color: black;
+  background-color: #7B13D6;
+  padding: 0 8px; 
+}
+
+.content-apropos {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+}
+.apropos-block {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 0rem 2rem;
+}
+
+.beffroi {
+  height: 512px;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.bold {
+  color: #43AC59;
+  font-style: italic;
+  font-size: 1.2rem;
+}

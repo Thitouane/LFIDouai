@@ -2,6 +2,26 @@
   text-align: center;
   padding: 1.5rem 0;
   font-size: 0.9rem;
-  color: #555;
   border-top: 1px solid #ddd;
+}
+
+/* wrapper qui crée le bandeau (hauteur fixe) et centre l'image dedans */
+.bandeau-wrapper {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  margin: 1rem auto 0;
+}
+
+.bandeau-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.invert-color {
+  filter: invert(0) !important;
+}
+
+body.dark-mode .invert-color {
+  filter: invert(1) !important;
 }

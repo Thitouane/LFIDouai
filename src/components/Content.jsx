@@ -6,6 +6,7 @@ import Agir from "./pages/Agir";
 import Apropos from "./pages/Apropos";
 import Header from "./Header";
 import Footer from "./Footer";
+import Menu from "./Menu";
 import ThemePage from "./pages/ThemePage"; 
 import "../styles/Content.css";
 
@@ -16,16 +17,8 @@ export default function Content() {
   return (
     <div className="app">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-
-      <div className={`overlay ${menuOpen ? "open" : ""}`}>
-        <nav className="overlay-menu" onClick={closeMenu}>
-          <Link to="/" className="lfired">Accueil</Link>
-          <Link to="/agir" className="lfiyellow">Agir</Link>
-          <Link to="/programme" className="lfigreen">Le programme</Link>
-          <Link to="/apropos"className="lfipurple">À propos</Link>
-        </nav>
-        <Footer />
-      </div>
+      
+      <Menu menuOpen={menuOpen} closeMenu={closeMenu} />
 
       <main className="content">
         <Routes>
@@ -37,6 +30,9 @@ export default function Content() {
           <Route path="/apropos" element={<Apropos />} />
         </Routes>
       </main>
+
+      <Footer />
+    
     </div>
   );
 }

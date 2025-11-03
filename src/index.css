@@ -44,13 +44,20 @@
 body {
   margin: 0;
   font-family: 'Zalando Sans', sans-serif;
-  color: #fdfdfd;
-  background-color: black;
+  background-color: #fff;
+  color: #111;
+  transition: background-color 0.3s ease, color 0.3s ease;
   /* background-image: url('./assets/bg.png');
   background-size: cover;        
   background-position: center;   
   background-repeat: no-repeat; 
   min-height: 100vh;  */
+}
+
+/* Mode sombre */
+body.dark-mode {
+  background-color: #111;
+  color: #f5f5f5;
 }
 
 * {

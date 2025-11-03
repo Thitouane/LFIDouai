@@ -1,0 +1,33 @@
+.title-home {
+   font-size: 3rem !important;
+}
+
+.douai-home {
+  color: black;
+  background-color: #43AC59;
+  padding: 0 8px; 
+}
+.dfp-home {
+  color: black;
+  background-color: #FFC700;
+  padding: 0 8px; 
+}
+
+.programme-cta-btn {
+  background-color: #43AC59;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-top: 4rem;
+}
+
+.programme-cta-btn:hover {
+  background-color: #43AC59;
+  color: white;
+  transform: scale(1.05);
+}

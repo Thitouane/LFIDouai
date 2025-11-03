@@ -1,0 +1,175 @@
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #000;
+  color: white;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  overflow: hidden;
+}
+
+.menu-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+body.dark-mode .menu-close {
+  color: black;
+}
+
+/* Liens principaux */
+/* OVERLAY MENU */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: black; /* Couleur sombre */
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.5s ease;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body.dark-mode .overlay {
+  background: white; /* Couleur sombre */
+  color: black; /* Texte en blanc */
+}
+
+.overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.overlay-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start; 
+  padding-left: 5%; 
+  gap: 2rem;
+  padding-top: 6rem;
+}
+
+.overlay-menu a {
+  text-decoration: none;
+  font-size: 4em;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.overlay-menu a:hover {
+  color: white;
+}
+body.dark-mode  a:hover {
+  color: black;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  gap: 2rem;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 00;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  transition: opacity 0.3s;
+}
+
+.menu-links a:hover {
+  opacity: 0.7;
+}
+
+/* Bas du menu */
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: flex-end;    /* colle à droite */
+  gap: 2rem;
+  padding: 0 2rem 2rem 2rem;   /* marge intérieure en bas et sur les côtés */
+}
+
+.douai-menu {
+  color: black;
+  background-color: #43AC59;
+  padding: 0 8px; 
+  font-size: 1.5rem;
+}
+.dfp-menu {
+  color: black;
+  background-color: #FFC700;
+  padding: 0 8px; 
+}
+
+.menu-socials a img {
+  height: 48px;
+  padding-right: 5px;
+  filter: invert(1);
+}
+
+body.dark-mode .menu-socials a img {
+  filter: invert(0);
+}
+
+.theme-toggle {
+  width: 60px;
+  height: 30px;
+  background: #e2e8f0; /* clair par défaut */
+  border-radius: 30px;
+  padding: 3px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.4s ease;
+  display: flex;
+  align-items: flex-start;
+}
+
+.theme-toggle.dark {
+  background: #2d3748; /* sombre */
+}
+
+.slider {
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Quand on est en mode sombre, la boule glisse à droite */
+.theme-toggle.dark .slider {
+  left: calc(100% - 27px);
+  background: #f9fafb;
+}

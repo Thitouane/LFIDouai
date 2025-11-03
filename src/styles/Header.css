@@ -24,12 +24,20 @@
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  color: #fdfdfd;
+  color: black;
+}
+
+body.dark-mode .menu-button {
+  color: white;
 }
 
 .menu-button.open {
-  color: black; /* couleur quand menuOpen = true */
+  color: white; /* couleur quand menuOpen = true */
   transform: scale(1.05);
+}
+
+body.dark-mode .menu-button.open {
+  color: black;
 }
 
 .logo-link {

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fdfdfd;
+}
+
+/* OVERLAY MENU */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: white;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.5s ease;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.overlay-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 6rem;
+}
+
+.overlay-menu a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.overlay-menu a:hover {
+  color: black;
+}
+
+/* MAIN CONTENT */
+.content {
+  padding: 8rem 2rem;
+  text-align: center;
+}

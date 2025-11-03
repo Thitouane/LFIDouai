@@ -1,0 +1,130 @@
+/* Programme page styles - responsive grid & theme page */
+
+.programme-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+}
+
+.programme-header h1 {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.programme-intro {
+  margin-bottom: 2rem;
+}
+
+/* Grid */
+.themes-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 992px) {
+  .themes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .themes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card */
+.theme-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(15, 15, 15, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.12);
+}
+
+.theme-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.theme-media img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .theme-media img {
+    height: 200px;
+  }
+}
+
+.theme-body {
+  padding: 1rem 1rem 1.25rem;
+}
+
+.theme-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.theme-excerpt {
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.35;
+}
+
+.theme-cta {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #c0392b; /* accent color */
+}
+
+/* Theme page (detail) */
+.theme-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.theme-hero img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+.theme-hero-overlay {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  color: white;
+  text-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+.theme-hero-overlay h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* theme-content */
+.theme-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}

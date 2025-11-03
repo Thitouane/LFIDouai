@@ -1,10 +1,76 @@
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zalando Sans';
+  src: url('./assets/fonts/ZalandoSans_Expanded-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Style global */
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  background: #f5f5f5;
-  color: #333;
+  font-family: 'Zalando Sans', sans-serif;
+  color: #fdfdfd;
+  background-color: black;
+  /* background-image: url('./assets/bg.png');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+  min-height: 100vh;  */
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.lfired {
+  color: #F91616;
+}
+
+.lfiyellow {
+  color: #FFC700;
+}
+
+.lfigreen {
+  color: #43AC59;
+}
+
+.lfipurple {
+  color: #7B13D6;
 }

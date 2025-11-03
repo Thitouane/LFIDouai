@@ -1,12 +1,6 @@
-import React from 'react';
-import ContentArea from './components/ContentArea';
+import React from "react";
+import Content from "./components/Content";
 
-function App() {
-  return (
-    <div className="App">
-      <ContentArea />
-    </div>
-  );
+export default function App() {
+  return <Content />;
 }
-
-export default App;

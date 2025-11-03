@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/Programme.css";
+import melenchon from '../../../assets/melenchon.jpg';
 
 export default function DemocratieLocale() {
   return (
     <article className="theme-page">
       <div className="theme-hero">
         <img
-          src="https://via.placeholder.com/1200x600?text=Transition+%C3%A9cologique"
+          src={melenchon}
           alt="Démocratie locale"
         />
         <div className="theme-hero-overlay">

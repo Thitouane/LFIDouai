@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Programme.css";
 
-import melenchon from '../../assets/logo-douaisis.png';
+import melenchon from '../../assets/melenchon.jpg';
 
 /**
  * Liste des thèmes — adapte titres, slugs, images et descriptions.

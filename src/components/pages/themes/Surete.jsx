@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/Programme.css";
+import melenchon from '../../../assets/melenchon.jpg';
 
 export default function Surete() {
   return (
     <article className="theme-page">
       <div className="theme-hero">
         <img
-          src="../../../assets/logo-douaisis.png"
+          src={melenchon}
           alt="surete"
         />
         <div className="theme-hero-overlay">

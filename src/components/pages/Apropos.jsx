@@ -21,7 +21,7 @@ export default function Apropos() {
             <span className="bold">Nous croyons à une autre manière de faire de la politique</span> : en partant du terrain, en écoutant les habitantes et les habitants, en agissant avec elles et eux.
           <br></br><br></br><br></br>
             Nous habitons tous les quartiers de Douai.
-            Ce qui nous unit, c’est la conviction que <span className="bold">Douai mérite mieux — et que le changement doit venir du peuple douaisien lui-même.</span>
+            Ce qui nous unit, c’est la conviction que <span className="bold">Douai mérite mieux</span> — et que le changement doit venir du peuple douaisien lui-même.
           </p>
         </div>
         

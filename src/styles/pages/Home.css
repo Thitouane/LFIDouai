@@ -18,12 +18,13 @@
   border: none;
   color: black;
   font-weight: bold;
-  padding: 0.8rem 1.8rem;
+  padding: 1.5rem 4rem;
   border-radius: 30px;
   cursor: pointer;
-  font-size: clamp(0.5rem, 5vw, 1rem);
+  font-size: clamp(0.5rem, 5vw, 4rem);
   transition: all 0.3s ease;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .programme-cta-btn:hover {
@@ -31,4 +32,3 @@
   color: white;
   transform: scale(1.05);
 }
-

@@ -27,3 +27,28 @@
     text-align: center;
   }
 }
+
+/* === BACKGROUND ANIMÉ EN DAMIER === */
+.moving-background {
+  position: fixed;
+  inset: 0;
+  background-color: #000; /* couleur de fond principale */
+  background-image: url("../assets/logo.ico"); /* deux couches pour effet damier */
+  background-repeat: repeat, repeat;
+  background-size: 180px 180px; /* espace entre les logos */
+  background-position: 90px 90px; /* décalage pour effet de grille */
+  animation: moveBackground 60s linear infinite;
+  z-index: -1; /* reste derrière tout */
+  opacity: 0.075; /* douceur visuelle */
+  pointer-events: none; /* pas de clic sur le fond */
+}
+
+/* === ANIMATION DOUCE DU MOTIF === */
+@keyframes moveBackground {
+  from {
+    background-position: 0 0, 90px 90px;
+  }
+  to {
+    background-position: 360px 360px, 450px 450px;
+  }
+}

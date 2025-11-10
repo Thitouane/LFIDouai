@@ -23,14 +23,16 @@ export default function Home() {
       <br />
 
       <Apropos />
-        
-      <Agir />
 
       <div className="programme-block"> 
-        <button className="programme-cta-btn" onClick={() => goToProgramme()}>
-          Notre Programme
+        <button className="programme-cta-btn " onClick={() => goToProgramme()}>
+          <p className="multicolor">Notre Programme</p>
         </button>
-      </div>
+      </div> 
+
+      <Agir />
+
+     
     </section>
   );
 }

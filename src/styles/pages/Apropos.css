@@ -25,7 +25,7 @@
 
 .beffroi {
   height: 512px;
-  width: fit-content;
+  /*width: 384px;*/
   border-radius: 8px;
 }
 

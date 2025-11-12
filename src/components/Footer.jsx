@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 
-import patricia from '../assets/PATRICIA BANDEAU.jpg';
+import patricia from '../assets/boulan2026-removebg.png';
 
 import FaFacebookF from "../assets/logo-fb.png";
 import FaInstagram from "../assets/logo-instagram.png";
@@ -12,6 +12,12 @@ export default function Footer() {
     <footer className="overlay-footer">
       
       <div className="menu-socials">
+          <h1 className="title-home">
+            <span className="douai-home">Douai</span>
+          </h1>
+          <h2>
+            <span className="dfp-home">Fière et Populaire</span>
+          </h2><br />
           <a href="https://www.facebook.com/LFIDouaisis/" target="_blank" rel="noreferrer">
               <img src={FaFacebookF} alt="Logo" className="logo invert-color"/>
           </a>
@@ -23,9 +29,7 @@ export default function Footer() {
           </a>
       </div>
       
-      <div className="bandeau-wrapper">
-        <img src={patricia} alt="Logo" className="bandeau-image" />
-      </div>
+      
       
     </footer>
   );

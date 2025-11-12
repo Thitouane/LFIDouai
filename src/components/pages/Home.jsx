@@ -5,6 +5,8 @@ import Apropos from "../pages/Apropos";
 import { useNavigate } from "react-router-dom";
 import Agir from "../pages/Agir";
 
+import patricia from '../../assets/boulan2026-removebg.png';
+
 export default function Home() {
   const navigate = useNavigate();
 
@@ -14,12 +16,10 @@ export default function Home() {
 
   return (
     <section>
-      <h1 className="title-home">
-        <span className="douai-home">Douai</span><br />
-      </h1>
-      <h2> 
-        <span className="dfp-home">Fière et Populaire</span>
-      </h2>
+        <div className="bandeau-wrapper">
+          <img src={patricia} alt="Logo" className="bandeau-image" />
+      </div>
+     
       <br />
 
       <Apropos />

@@ -1,6 +1,6 @@
 /* MAIN CONTENT */
 .content {
-  padding: 8rem 0rem;
+  padding: 4rem 0rem;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
   background-position: 90px 90px; /* décalage pour effet de grille */
   animation: moveBackground 60s linear infinite;
   z-index: -1; /* reste derrière tout */
-  opacity: 0.075; /* douceur visuelle */
+  opacity: 0.01; /* douceur visuelle */
   pointer-events: none; /* pas de clic sur le fond */
 }
 

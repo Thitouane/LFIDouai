@@ -1,25 +1,99 @@
 /* Programme page styles - responsive grid & theme page */
 
 .programme-page {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 1.5rem 4rem;
+  padding: 6rem 0rem 4rem;
+}
+
+.programme-header {
+  padding: 0rem 1.5rem 0rem;
 }
 
 .programme-header h1 {
   font-size: clamp(1rem, 5vw, 2.25rem);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.programme-title {
+  color: black;
+  background-color: #43AC59;;
+  padding: 0 8px; 
 }
 
 .programme-intro {
+  max-width: 1200px;
+  margin-bottom: 2rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* 10 mesures */
+.programme10 {
+  color: black;
+  background-color: #7B13D6;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0.5rem;
   margin-bottom: 2rem;
 }
 
+.programme10 h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.programme10-title {
+  color: black;
+  background-color: #FFC700;
+  padding: 0 8px; 
+}
+
+.programme10-odd {
+  color: black;
+  background-color: #FFC700;
+}
+
+.programme-10-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.programme-10-list {
+  list-style: none;
+  color: white;
+  background-color: #7B13D6;
+  text-align: justify;
+  width: 100%;
+}
+
+
+.programme-10-list li {
+  padding: 0.4rem 0.2rem;
+}
+
 /* Grid */
+.grid {
+  padding: 0rem 1.5rem 0rem;
+  margin-bottom: 2rem;
+}
+
+.grid-title {
+  text-align: left;
+}
+
 .themes-grid {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0rem 1.5rem 0rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 992px) {
@@ -107,7 +181,7 @@
   position: absolute;
   left: 1.5rem;
   bottom: 1.5rem;
-  text-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  text-shadow: 0 6px 18px rgba(0,0,0,1);
 }
 .theme-hero-overlay h1 {
   margin: 0;
@@ -117,9 +191,15 @@
 /* theme-content */
 .theme-content {
   max-width: 900px;
+  text-align: justify;
   margin: 2rem auto;
   padding: 0 1rem;
   line-height: 1.6;
+}
+
+
+.theme-content ul {
+  list-style: none;
 }
 
 .back-link {
@@ -127,4 +207,24 @@
   margin-top: 1.5rem;
   text-decoration: none;
   font-weight: 600;
+}
+
+.theme-bold {
+  font-style: italic;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
+}
+
+.back-button {
+  text-decoration: none;
+  font-size: clamp(0.6rem, 5vw, 1.2rem);
+}
+
+.theme-list li {
+  padding: 0.2rem;
+}
+
+.theme-liste-odd {
+  color: black;
+  background-color: #7B13D6;
+  padding: 0.05rem 1rem;
 }

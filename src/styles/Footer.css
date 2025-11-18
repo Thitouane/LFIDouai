@@ -20,7 +20,7 @@
   height: 256px;
   object-fit: cover;          /* remplit sans déformer */
   object-position: center;    /* centre l’image */
-  transform: scale(1.24);      /* zoom à 110% */
+  transform: scale(1.5);      /* zoom à 110% */
   transition: transform 0.3s ease; /* lissage (optionnel) */
 }
 

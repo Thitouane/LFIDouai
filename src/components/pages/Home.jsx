@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <section>
         <div className="bandeau-wrapper">
-          <img src={patricia} alt="Logo" className="bandeau-image" />
+          <img src={patricia} alt="Logo" className="bandeau-image logo" />
       </div>
      
       <br />

@@ -41,6 +41,7 @@ export default function Menu({ menuOpen, closeMenu }) {
                 </span>
             </div>
             
+            {/* 
             <div
                 className={`theme-toggle ${darkMode ? "dark" : "light"}`}
                 onClick={() => setDarkMode(!darkMode)}
@@ -48,7 +49,9 @@ export default function Menu({ menuOpen, closeMenu }) {
                 <div className="slider">
                     {darkMode ? "🌙" : "☀️"}
                 </div>
-            </div>
+            </div> 
+            */}
+            
 
             <div className="menu-socials">
                 <a href="https://www.facebook.com/LFIDouaisis/" target="_blank" rel="noreferrer">

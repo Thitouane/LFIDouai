@@ -44,25 +44,25 @@ export default function Agir() {
             </div>
             <div>
               <label>Nom</label>
-              <input required name="nom" type="text" 
+              <input required name="nom" type="text" placeholder="Nom"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />
             </div>
             <div>
               <label>Email</label>
-              <input required name="email" type="email" 
+              <input required name="email" type="email" placeholder="Email"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />
             </div>
             <div>
               <label>Téléphone</label>
-              <input required name="téléphone" type="tel"
+              <input required name="téléphone" type="tel" placeholder="Téléphone"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />
             </div>
             <div>
               <label>Ville</label>
-              <input required name="ville" type="text" 
+              <input required name="ville" type="text" placeholder="Ville"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />
             </div>

@@ -28,10 +28,10 @@ export default function Content() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/LFIDouai" element={<Home />} />
-            <Route path="/programme" element={<Programme />} />
-            <Route path="/programme/:theme" element={<ThemePage />} />
-            <Route path="/agir" element={<Agir />} />
-            <Route path="/apropos" element={<Apropos />} />
+            <Route path="/LFIDouai/programme" element={<Programme />} />
+            <Route path="/LFIDouai/programme/:theme" element={<ThemePage />} />
+            <Route path="/LFIDouai/agir" element={<Agir />} />
+            <Route path="/LFIDouai/apropos" element={<Apropos />} />
           </Routes>
         </main>
 

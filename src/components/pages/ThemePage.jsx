@@ -11,6 +11,7 @@ import EntraideEtServicesPubliques from "./themes/EntraideEtServicesPubliques";
 import Logement from "./themes/Logement";
 import MobiliteActive from "./themes/MobiliteActive";
 import Surete from "./themes/Surete";
+import CadreDeVie from "./themes/CadreDeVie";
 
 /* Même source de données (tu peux extraire ça dans un fichier commun si tu veux) */
 
@@ -28,6 +29,7 @@ export default function ThemePage() {
     logement: <Logement />,
     "mobilite-active": <MobiliteActive />,
     surete: <Surete />,
+    "cadre-de-vie": <CadreDeVie />,
   };
   const SelectedPage = pages[theme];
 
@@ -36,7 +38,7 @@ export default function ThemePage() {
       <section className="theme-notfound">
         <h2>Thème introuvable</h2>
         <p>Le thème demandé n'existe pas.</p>
-        <a href="/programme" className="back-button">
+        <a href="/LFIDouai/programme" className="back-button">
           ← Retour au programme
         </a>
       </section>

@@ -18,10 +18,10 @@ export default function EcologiePopulaire() {
 
       <div className="theme-content">
         <p>
-          <span className="lfigreen theme-bold">Le dérèglement climatique est là. À Douai, l’air devient irrespirable, les orages
+          <span>Le dérèglement climatique est là. À Douai, l’air devient irrespirable, les orages
 sont plus violents, les inondations plus fréquentes et la chaleur parfois si
 écrasante qu’elle empêche les enfants d’aller à l’école.</span> 
-          <br></br>
+          <br></br><br></br>
                   Et pourtant, notre ville
 reste insuffisamment préparée à ces bouleversements. Face aux gouvernements qui
 nous emmènent droit dans le mur, nous faisons un autre choix : celui de l’écologie
@@ -39,43 +39,57 @@ injustices.
 ➔ <span className="theme-bold">Établir</span> avec les habitants un diagnostic écologique communal complet dès la
 première année (faisable dès la première année)
           </li>
+        <br></br>
+        
           <li>
-            ➔ <span className="theme-liste-odd">
+            ➔ <span>
 <span className="theme-bold">Lancer</span> un plan énergie renouvelable ambitieux (toitures solaires, réseaux de
 chaleur, hydroliennes aux écluses)
             </span>
           </li>
+        <br></br>
+        
           <li>
 ➔ <span className="theme-bold">Adopter</span> un plan pluriannuel de végétalisation de l’espace public et de
 création d'îlots de fraîcheur en fixant des objectifs précis (ex : végétalisation
 de tous les parkings de plus de 500 m² d’ici 2030)
           </li>
+        <br></br>
+        
           <li>
-            ➔ <span className="theme-liste-odd">
+            ➔ <span>
 <span className="theme-bold">Réduire</span> les déplacements en voiture de l’équipe municipale et privilégier
 l’utilisation de vélos et de véhicules légers (faisable dès la première année)</span>
           </li>
+        <br></br>
+        
           <li>
             ➔ <span className="theme-bold">Créer</span> une régie publique de l’eau avec une gouvernance citoyenne, une
 tarification progressive de l’eau et la gratuité des premiers mètres cubes
 d’eau indispensables à la vie
           </li>
+        <br></br>
+        
           <li>
-           ➔ <span className="theme-liste-odd"><span className="theme-bold">Faire</span> de la cantine municipale un modèle 100 % bio, local et sans produits
+           ➔ <span><span className="theme-bold">Faire</span> de la cantine municipale un modèle 100 % bio, local et sans produits
 industriels en soutenant les producteurs locaux</span>
           </li>
+        <br></br>
+        
           <li>
            ➔ <span className="theme-bold">Intégrer</span> le critère de bien-être animal dans la commande publique de la
 cantine scolaire
           </li>
+        <br></br>
+
           <li>
-           ➔ <span className="theme-liste-odd"><span className="theme-bold">Faire</span> de chaque école un lieu d’écologie vivante : jardins potagers, classes
+           ➔ <span><span className="theme-bold">Faire</span> de chaque école un lieu d’écologie vivante : jardins potagers, classes
 climat, ateliers pratiques avec les associations et l’IMT</span>
           </li>
         </ul>
         <br></br>
 
-        <Link to="/programme" className="back-button">
+        <Link to="/LFIDouai/programme" className="back-button">
           ← Retour au programme
         </Link>
       </div>

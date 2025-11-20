@@ -14,6 +14,7 @@ import emploi from '../../assets/emploi.jpeg';
 import ecolo from '../../assets/ecolo.jpg';
 import democratie from '../../assets/democratie.jpg';
 import antiracisme from '../../assets/antiracisme.jpg';
+import cadreDeVie from '../../assets/cadreDeVie.avif';
 
 /**
  * Liste des thèmes — adapte titres, slugs, images et descriptions.
@@ -26,13 +27,13 @@ export default function Programme() {
       title: "Antiracisme",
       slug: "antiracisme",
       image: antiracisme,
-      excerpt: "Douai antiraciste, féministe et LGBTI : une ville fière de sa diversité, forte de ses différences",
+      excerpt: "Une ville fière de sa diversité, forte de ses différences",
     },
     {
       title: "Démocratie locale",
       slug: "democratie-locale",
       image: democratie,
-      excerpt: "La démocratie locale : commencer la révolution citoyenne",
+      excerpt: "Commencer la révolution citoyenne",
     },
     {
       title: "Écologie populaire",
@@ -82,6 +83,12 @@ export default function Programme() {
       image: surete,
       excerpt: "La sûreté : assurer le droit à la sûreté pour toutes et tous",
     },
+    {
+      title: "Le cadre de vie",
+      slug: "cadre-de-vie",
+      image: cadreDeVie,
+      excerpt: "Pour des espaces agréables à vivre partout à Douai",
+    }
   ];
 
   return (
@@ -90,6 +97,15 @@ export default function Programme() {
         <h1> <span className="programme-title">Le programme</span> </h1>
         <ToggleBlock defaultOpen={true}>
           <p className="programme-intro">
+            Frédéric Chéreau a laissé de côté les quartiers populaires de Douai, concentrant ses efforts sur le centre-ville.
+<br></br><br></br>
+            Autour de Patricia, nous portons une autre idée de la ville : vivante, solidaire et populaire, qui écoute ses habitants et leur redonne du pouvoir.
+<br></br><br></br>
+            Notre projet est simple mais fort : tout donner pour celles et ceux qui n’ont jamais rien.
+<br></br><br></br>
+            Notre objectif : faire de Douai la ville des quartiers vivants, où chacun peut vivre dignement et où le changement vient du peuple douaisien. 
+
+        {/* 
           <span className="lfired">Frédéric Chéreau a tourné le dos aux quartiers populaires de Douai.</span> À force de concentrer ses efforts sur quelques rues du centre-ville, il a laissé tomber les
           habitants de Dorignies, de Frais-Marais, de la Clochette, de la résidence Gayant et des Faubourgs.<br></br><br></br>
 
@@ -111,6 +127,8 @@ export default function Programme() {
           chaque quartier compte, où l’on peut vivre dignement, travailler, se déplacer et se
           rencontrer. Parce que Douai mérite mieux et que le changement viendra du peuple
           douaisien lui-même.
+        */}
+          
         </p>
         </ToggleBlock>
         
@@ -123,23 +141,36 @@ export default function Programme() {
         <div className="themes-grid">
           {THEMES.map((t) => (
             <article className="theme-card" key={t.slug}>
-              <Link to={`/programme/${t.slug}`} className="theme-link" aria-label={`Voir ${t.title}`}>
-                <div className="theme-media">
-                  <img src={t.image} alt={t.title} />
-                </div>
+              <Link
+                to={`/LFIDouai/programme/${t.slug}`}
+                className="theme-link"
+                aria-label={`Voir ${t.title}`}
+                style={{ backgroundImage: `url(${t.image})` }}
+              >
+                <div className="theme-overlay"></div>
+
                 <div className="theme-body">
                   <h2 className="theme-title">{t.title}</h2>
                   <p className="theme-excerpt">{t.excerpt}</p>
-                  <span className="theme-cta">En savoir +</span>
                 </div>
               </Link>
             </article>
           ))}
         </div>
       </div>
-      
 
-      <div className="programme10">
+      {/*
+      
+      <div className="measure-header">
+        <h2>Ctte mesure bkabkab</h2>
+        <button className="cost-button">Combien ça coûte ?</button>
+      </div>
+      
+      */}
+
+      
+      {/* 
+       <div className="programme10">
           <h1> <span className="programme10-title">Dès la première année !</span> </h1>
           
         <div className="programme-intro">
@@ -191,6 +222,8 @@ racistes et LGBTI-phobes dans l’espace public.
           </ul>
         </div>
       </div>
+      */}
+     
     </section>
   );
 }

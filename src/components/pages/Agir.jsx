@@ -30,13 +30,13 @@ export default function Agir() {
 
   return (
     <section >
-      <div className={`${location.pathname === "/agir" ? "form-section-b" : "form-section"}`}>
-        <h2 style={{textAlign:"center", marginBottom:"25px"}}>
+      <div className={`${location.pathname === "/LFIDouai/agir" ? "form-section-b" : "form-section"}`}>
+        <h2 style={{textAlign:"center", marginBottom:"3rem"}}>
           <span className="agir-title"> Restons en contact</span>
         </h2>
 
         {!sent ? (
-          <form onSubmit={sendEmail} style={{display:"flex",flexDirection:"column",gap:"18px"}}>
+          <form onSubmit={sendEmail} className="form" >
             <div>
               <label>Prénom</label>
               <input name="prenom" type="text" required placeholder="Prénom"
@@ -96,7 +96,7 @@ export default function Agir() {
         )}
       </div>
       
-      {location.pathname === "/agir" && (
+      {location.pathname === "/LFIDouai/agir" && (
         <div className="rejoindre-setion">
           <div className="agir-image">
             <img src={group} alt="Agir" className="image-style" />

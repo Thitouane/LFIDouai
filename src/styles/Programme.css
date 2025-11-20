@@ -109,26 +109,10 @@
 }
 
 /* Card */
-.theme-card {
-  background: #fff;
-  color: black;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(15, 15, 15, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
 
 .theme-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 30px rgba(15, 15, 15, 0.12);
-}
-
-.theme-link {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  color: inherit;
-  text-decoration: none;
 }
 
 .theme-media img {
@@ -138,6 +122,74 @@
   display: block;
 }
 
+/* CARD IMAGE FULL BACKGROUND */
+.theme-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 260px; /* hauteur identique à ta capture */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+/* Le Link devient le container full-cover */
+.theme-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pousse texte en bas */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+/* Dégradé en bas */
+.theme-overlay {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0)
+  );
+}
+
+/* Texte dans la partie basse */
+.theme-body {
+  position: relative;
+  padding: 1.2rem;
+  z-index: 2; /* passe devant l’overlay */
+}
+
+/* TITRE STYLE */
+.theme-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  letter-spacing: 1px;
+  color: white;
+  text-align: left;
+}
+
+/* EXCERPT STYLE */
+.theme-excerpt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  opacity: 0.95;
+  margin-bottom: 0.7rem;
+  text-align: left;
+}
+
+
 @media (min-width: 1200px) {
   .theme-media img {
     height: 200px;
@@ -146,23 +198,6 @@
 
 .theme-body {
   padding: 1rem 1rem 1.25rem;
-}
-
-.theme-title {
-  font-size: clamp(0.5rem, 5vw, 1.15rem);
-  margin-bottom: 0.5rem;
-}
-
-.theme-excerpt {
-  color: #555;
-  margin-bottom: 1rem;
-  line-height: 1.35;
-}
-
-.theme-cta {
-  font-weight: 600;
-  font-size: clamp(0.5rem, 5vw, 0.95rem);
-  color: #c0392b; /* accent color */
 }
 
 /* Theme page (detail) */
@@ -185,6 +220,7 @@
 }
 .theme-hero-overlay h1 {
   margin: 0;
+  color: white;
   font-size: clamp(1rem, 5vw, 2rem);
 }
 

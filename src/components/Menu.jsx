@@ -6,6 +6,7 @@ import "../styles/Menu.css";
 import FaFacebookF from "../assets/logo-fb.png";
 import FaInstagram from "../assets/logo-instagram.png";
 import FaTikTok from "../assets/logo-tiktok.png";
+import logo from '../assets/LOGO COULEUR HORIZONAL.png';
 
 export default function Menu({ menuOpen, closeMenu }) {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,19 +27,16 @@ export default function Menu({ menuOpen, closeMenu }) {
   return (
     <div className={`overlay ${menuOpen ? "open" : ""}`}>
         <nav className="overlay-menu" onClick={closeMenu}>
-          <Link to="/" className="lfired">Accueil</Link>
-          <Link to="/programme" className="lfigreen">Le programme</Link>
-          <Link to="/agir" className="lfiyellow">Agir</Link>
-          <Link to="/apropos"className="lfipurple">À propos</Link>
+          <Link to="LFIDouai" className="lfired">Accueil</Link>
+          <Link to="LFIDouai/programme" className="lfigreen">Le programme</Link>
+          <Link to="/LFIDouai/agir" className="lfiyellow">Agir</Link>
+          <Link to="/LFIDouai/apropos"className="lfipurple">À propos</Link>
         </nav>
 
 
         <div className="menu-bottom">
             <div className="menu-logo">
-                <span className="menu-logo-text">
-                    <span className="douai-menu">Douai</span><br />
-                    <span className="dfp-menu">Fière et Populaire</span>
-                </span>
+                <img src={logo} alt="Logo" className="logo-footer"/>
             </div>
             
             {/* 

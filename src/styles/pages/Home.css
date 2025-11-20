@@ -32,3 +32,22 @@
   color: white;
   transform: scale(1.05);
 }
+
+.programme-block {
+  margin-bottom: 6rem;
+  margin: 8rem auto;
+  width: 64rem;
+}
+
+
+@media (max-width: 768px) {
+  .programme-block {
+    width: auto;
+  }
+
+  .bandeau-wrapper {
+    visibility: hidden;
+    height: 0;
+  }
+  
+}

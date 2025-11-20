@@ -37,8 +37,8 @@ plus petits. En investissant dans l’enfance, nous préparons un avenir plus ju
 
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Fournir</span> à tous les élèves des fournitures scolaires gratuites dès la maternelle
-(faisable dès la première année)
+            ➔ <span className="theme-bold">Fournir</span> à tous les élèves des fournitures scolaires gratuites dès la maternelle 
+<em className="lfipurple"> (faisable dès la première année)</em>
           </li>
         <br></br>
 
@@ -73,7 +73,7 @@ traditionnels
         
           <li>
             ➔ <span className="theme-bold">Adhérer</span> au réseau national UNICEF « Ville amie des enfants » pour
-renforcer les droits des plus jeunes (faisable dès la première année)
+renforcer les droits des plus jeunes <em className="lfipurple">(faisable dès la première année)</em>
           </li>
         <br></br>
         
@@ -86,7 +86,7 @@ renforcer les droits des plus jeunes (faisable dès la première année)
           Chiffrage
         </h2>
         <p> 
-          👶 1 ATSEM par classe de maternelle — 1,8 million d’euros
+          👶 <span className="theme-bold">1 ATSEM par classe de maternelle </span>— 1,8 million d’euros
           <br></br>
           Moins d’une classe de maternelle sur deux dispose aujourd’hui d’une ATSEM. Nous recruterons pour assurer une présence dans toutes les classes, comme le recommande l'Éducation nationale.
           <br></br><br></br>
@@ -99,6 +99,37 @@ renforcer les droits des plus jeunes (faisable dès la première année)
           Recrutement progressif sur 6 ans
           <br></br>
           Coût : environ 500 000 € par an à plein effectif en 2032
+          <br></br>
+        </p>        
+
+        <br></br>
+        <div style={{
+          width: "50%",
+          height: "2px",
+          background: `linear-gradient(
+            to right,
+            transparent,
+            black,
+            transparent
+        )`,
+          borderRadius: "999px",
+          margin: "16px auto"
+        }}></div>
+        <br></br>
+        
+        <p>
+          🥐 <span className="theme-bold">Petit-déjeuner gratuit à l’école </span>— 1,4 million d’euros
+          <br></br>
+Tous les enfants des écoles publiques de Douai auront accès à un petit-déjeuner équilibré et gratuit chaque matin.
+Un geste simple pour lutter contre la faim, réduire les inégalités et favoriser la concentration et le bien-être de tous.
+          <br></br><br></br>
+Phases de mise en place :
+          <br></br>
+
+- Test dans les écoles REP+ dès 2027<br></br>
+- Extension aux REP en 2028<br></br>
+- Généralisation à toutes les écoles, sous réserve que l’État maintienne son financement aux communes<br></br>
+
         </p>
         
       <br></br><br></br>

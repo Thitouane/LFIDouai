@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/Programme.css";
-import melenchon from '../../../assets/melenchon.jpg';
+import melenchon from '../../../assets/surete.jpg';
 
 export default function Surete() {
   return (
@@ -16,18 +16,76 @@ export default function Surete() {
         </div>
       </div>
 
-      <div className="theme-content">
-         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+       <div className="theme-content">
+                         <p>
+                          Le droit à la sûreté est un principe fondamental pour toutes et tous – quel que
+soit son quartier, son origine ou son genre.
+                         <br></br><br></br>
+                        Nous défendons une approche
+fondée sur la prévention et la présence humaine plutôt que sur la multiplication de
+dispositifs sécuritaires coûteux et inefficaces. Ce n’est pas en armant quelques
+policiers municipaux ou en ajoutant toujours plus de caméras – alors qu’il y en a déjà
+plus de 150 – que l’on résoudra quoi que ce soit. Notre ville sera sûre parce qu’elle
+sera solidaire.
+                         </p>
+                         <br></br>
+                 
+                 
+                         <h2 className="lfipurple">
+                           Nos mesures pour faire mieux
+                         </h2>
+                 
+                         <ul className="theme-list">
+                           <li>
+                             ➔ <span className="theme-bold">Concentrer</span> la mission de la police municipale sur la présence de terrain, la
+tranquillité publique, la protection des enfants aux abords des écoles et la
+proximité avec les habitants
+                           </li>
+                         <br></br>
+                 
+                           <li>
+                             ➔ <span className="theme-bold">Refuser</span> tout armement létal de la police municipale
+                           </li>
+                         <br></br>
+                         
+                           <li>
+                             ➔ <span className="theme-bold">Investir</span> dans du matériel adapté et de qualité : vélos électriques, gilets
+pare-balles, équipement de protection
+                           </li>
+                         <br></br>
+                         
+                           <li>
+                             ➔ <span className="theme-bold">Pérenniser</span> les postes de médiateurs de proximité
+                           </li>
+                         <br></br>
+                         
+                           <li>
+                             ➔ <span className="theme-bold">Évaluer</span> régulièrement les politiques de sûreté par des enquêtes en
+porte-à-porte et des retours d’habitants
 
-        <Link to="/LFIDouai/programme" className="back-button">
-          ← Retour au programme
-        </Link>
-      </div>
+                           </li>
+                         <br></br>
+                         
+                           <li>
+                            ➔ <span className="theme-bold">Instaurer</span> un moratoire sur la vidéosurveillance et lancer un audit indépendant
+sur son efficacité et son coût réel
+
+                           </li>
+                         <br></br>
+                         
+                           <li>
+                            ➔ <span className="theme-bold">Exiger</span> de l’Etat l’augmentation des effectifs de la police nationale et
+judiciaire, seule compétente pour lutter contre les infractions plus graves
+                           </li>
+                         <br></br>
+                         
+                         </ul>
+                         <br></br>
+                 
+                         <Link to="/LFIDouai/programme" className="back-button">
+                           ← Retour au programme
+                         </Link>
+                       </div>
     </article>
   );
 }

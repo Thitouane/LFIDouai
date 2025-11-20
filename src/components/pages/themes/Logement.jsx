@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/Programme.css";
-import melenchon from '../../../assets/melenchon.jpg';
+import melenchon from '../../../assets/logement.jpg';
 
 export default function Logement() {
   return (
@@ -17,17 +17,74 @@ export default function Logement() {
       </div>
 
       <div className="theme-content">
-         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <Link to="/LFIDouai/programme" className="back-button">
-          ← Retour au programme
-        </Link>
-      </div>
+              <p>
+                À Douai, des milliers de personnes vivent dans des logements mal isolés, trop
+chers, ou indignes. Plus de 3 000 logements sont vides tandis que des
+habitants dorment à la rue ou dans des immeubles laissés à l’abandon. 
+              <br></br><br></br>
+              Cette
+situation est à la fois injuste et absurde. Nous pouvons agir. Il est temps de faire du
+logement une priorité locale pour que chacune et chacun puisse vivre dignement,
+sans précarité ni insécurité.
+              </p>
+              <br></br>
+      
+      
+              <h2 className="lfipurple">
+                Nos mesures pour faire mieux
+              </h2>
+      
+              <ul className="theme-list">
+                <li>
+                  ➔ <span className="theme-bold">Renforcer</span> les services municipaux d’inspection pour lutter efficacement
+contre les marchands de sommeil et repérer les logements indignes sur
+l'ensemble du territoire communal <em className="lfipurple">(faisable dès la première année)</em>
+                </li>
+              <br></br>
+      
+                <li>
+                  ➔ <span className="theme-bold">Garantir</span> des rues et des logements dignes et bien entretenus dans tous les
+quartiers de la ville, à commencer par les quartiers abandonnés de Douai
+                </li>
+              <br></br>
+              
+                <li>
+                  ➔ <span className="theme-bold">Créer</span> des points de chaleur dans les bâtiments publics pour accueillir les
+personnes sans solution de chauffage <em className="lfipurple">(faisable dès la première année)</em>
+                </li>
+              <br></br>
+              
+                <li>
+                  ➔ <span className="theme-bold">Réquisitionner</span> les logements vides pour héberger les personnes sans-abri
+                </li>
+              <br></br>
+              
+                <li>
+                  ➔ <span className="theme-bold">Anonymiser</span> les demandes de logement social pour mettre fin au clientélisme
+dans l’attribution des logements <em className="lfipurple">(faisable dès la première année)</em>
+                </li>
+              <br></br>
+              
+                <li>
+                 ➔ <span className="theme-bold">Exiger</span> une clause “zéro éloignement imposé” dans tous les projets de
+réhabilitation pour éviter les déplacements forcés des habitants, notamment
+nos aînés
+                </li>
+              <br></br>
+              
+                <li>
+                 ➔ <span className="theme-bold">Créer</span> une outil-thèque municipale pour permettre aux habitants d’emprunter
+gratuitement du matériel de bricolage, de jardinage ou de réparation
+                </li>
+              <br></br>
+              
+              </ul>
+              <br></br>
+      
+              <Link to="/LFIDouai/programme" className="back-button">
+                ← Retour au programme
+              </Link>
+            </div>
     </article>
   );
 }

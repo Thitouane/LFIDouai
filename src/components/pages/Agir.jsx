@@ -90,7 +90,7 @@ export default function Agir() {
             </button>
           </form>
         ) : (
-          <h3 style={{textAlign:"center", color:"#43AC59"}}>
+          <h3 style={{textAlign:"center",}}>
             Merci ! Votre message nous a été envoyé avec succès.  
           </h3>
         )}

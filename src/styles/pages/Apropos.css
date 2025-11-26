@@ -1,5 +1,5 @@
 .apropos-section {
-  padding: 4rem 2rem;
+  padding: 2rem 0rem;
   margin-top: 2rem;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   max-width: 800px;
   font-size: clamp(0.6rem, 5vw, 1.2rem);
   line-height: 1.2;
-  padding: 0rem 2rem;
+  padding: 4rem 2rem;
 }
 .apropos-block p {
   text-align: justify;
@@ -37,6 +37,9 @@
   font-size: clamp(0.6rem, 5vw, 1.2rem);
 }
 
+.agir-apropos {
+  margin-top: 2rem;
+}
 
 @media (max-width: 768px) {
   .content-apropos  {
@@ -48,6 +51,6 @@
   }
 
   .apropos-block {
-    padding: 2rem 0rem;
+    padding: 2rem 2rem;
   }
 }

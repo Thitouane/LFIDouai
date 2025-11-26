@@ -31,10 +31,9 @@ plus petits. En investissant dans l’enfance, nous préparons un avenir plus ju
         <br></br>
 
 
-        <h2 className="lfipurple">
-          Nos mesures pour faire mieux
+        <h2>
+          <span className="mesures-title">Nos mesures pour faire mieux</span>
         </h2>
-
         <ul className="theme-list">
           <li>
             ➔ <span className="theme-bold">Fournir</span> à tous les élèves des fournitures scolaires gratuites dès la maternelle 
@@ -80,9 +79,8 @@ renforcer les droits des plus jeunes <em className="lfipurple">(faisable dès la
         </ul>
         <br></br>
 
-
-        
-        <h2 className="lfigreen">
+    {/*
+    <h2 className="lfigreen">
           Chiffrage
         </h2>
         <p> 
@@ -133,7 +131,8 @@ Phases de mise en place :
         </p>
         
       <br></br><br></br>
-
+    */}
+        
         <Link to="/LFIDouai/programme" className="back-button">
           ← Retour au programme
         </Link>

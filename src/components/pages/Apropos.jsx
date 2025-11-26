@@ -1,5 +1,6 @@
 import "../../styles/pages/Apropos.css";
 import beffroi from '../../assets/beffroi.jpg';
+import Agir from "../pages/Agir";
 
 export default function Apropos() {
   return (
@@ -10,9 +11,8 @@ export default function Apropos() {
       */}
       <div className="content-apropos">
         <div className="apropos-block">
-
           <p>
-            J'ai fait le choix de me présenter pour reprendre notre avenir en main, loin des notables, loin des Chéreau et des Poiret.
+            J'ai fait le choix de me présenter pour reprendre notre avenir en main, loin de la petite bourgeoisie douaisienne, loin des Chéreau et des Poiret.
             <br></br><br></br><br></br>
             Autour de moi, des citoyens s'engagent pour porter un projet populaire, écologique et solidaire.
             <br></br><br></br><br></br>
@@ -37,9 +37,13 @@ export default function Apropos() {
           */}
           
         </div>
-        
         {/*<img src={beffroi} alt="Beffroi de Douai" className="beffroi" />*/}
       </div>
+
+      {location.pathname === "/LFIDouai/apropos" && (
+        <Agir className="agir-apropos"/>
+      )}
+
     </section>
   );
 }

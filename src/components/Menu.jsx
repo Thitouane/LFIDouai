@@ -6,7 +6,7 @@ import "../styles/Menu.css";
 import FaFacebookF from "../assets/logo-fb.png";
 import FaInstagram from "../assets/logo-instagram.png";
 import FaTikTok from "../assets/logo-tiktok.png";
-import logo from '../assets/LOGO COULEUR HORIZONAL.png';
+import logo from '../assets/LOGO BLANC HORIZONTAL.png';
 
 export default function Menu({ menuOpen, closeMenu }) {
   const [darkMode, setDarkMode] = useState(false);
@@ -52,7 +52,7 @@ export default function Menu({ menuOpen, closeMenu }) {
             
 
             <div className="menu-socials">
-                <a href="https://www.facebook.com/LFIDouaisis/" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/g/1Y68uxf6Vk/" target="_blank" rel="noreferrer">
                     <img src={FaFacebookF} alt="Logo" className="logo"/>
                 </a>
                 <a href="https://www.instagram.com/lfi_douai/" target="_blank" rel="noreferrer">

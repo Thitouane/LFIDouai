@@ -30,8 +30,8 @@ export default function DemocratieLocale() {
         </p>
         <br></br>
 
-        <h2 className="lfipurple">
-          Nos mesures pour faire mieux
+        <h2>
+          <span className="mesures-title">Nos mesures pour faire mieux</span>
         </h2>
         <ul className="theme-list">
           <li>

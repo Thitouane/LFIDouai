@@ -247,12 +247,12 @@
 
 .theme-bold {
   font-style: italic;
-  font-size: clamp(0.6rem, 5vw, 1.2rem);
+  font-size: clamp(1rem, 5vw, 1.5rem);
 }
 
 .back-button {
   text-decoration: none;
-  font-size: clamp(0.6rem, 5vw, 1.2rem);
+  font-size: clamp(1rem, 5vw, 1.5rem);
 }
 
 .theme-list li {
@@ -263,4 +263,46 @@
   color: black;
   background-color: #7B13D6;
   padding: 0.05rem 1rem;
+}
+
+.mesures-title {
+  color: white;
+  background-color: #7B13D6;
+  padding: 0 8px;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.lfibutton {
+  background-color: #0057b8;  /* couleur de fond — à adapter */
+  color: white;               /* couleur du texte */
+  padding: 12px 24px;         /* hauteur / largeur du bouton */
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 6px;         /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background-color 200ms ease, transform 100ms ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.lfibutton:hover {
+  background-color: #0045a1;  /* teinte plus sombre au survol */
+}
+
+.lfibutton:active {
+  transform: translateY(1px); /* léger effet "pression" au clic */
+}
+
+.lfibutton:disabled {
+  background-color: #aaa;
+  color: #eee;
+  cursor: not-allowed;
+  opacity: 0.7;
 }

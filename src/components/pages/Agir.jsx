@@ -56,7 +56,7 @@ export default function Agir() {
             </div>
             <div>
               <label>Téléphone</label>
-              <input required name="téléphone" type="tel" placeholder="Téléphone"
+              <input name="téléphone" type="tel" placeholder="Téléphone"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />
             </div>

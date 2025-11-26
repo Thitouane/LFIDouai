@@ -1,49 +1,61 @@
 @font-face {
-  font-family: 'Zalando Sans';
+  font-family: 'Zalando Sans expanded';
   src: url('./assets/fonts/ZalandoSans_Expanded-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Zalando Sans';
+  font-family: 'Zalando Sans expanded';
   src: url('./assets/fonts/ZalandoSans_Expanded-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Zalando Sans';
+  font-family: 'Zalando Sans expanded';
   src: url('./assets/fonts/ZalandoSans_Expanded-Bold.ttf') format('truetype');
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
 }
 
 @font-face {
-  font-family: 'Zalando Sans';
+  font-family: 'Zalando Sans expanded';
   src: url('./assets/fonts/ZalandoSans_Expanded-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Zalando Sans';
+  font-family: 'Zalando Sans expanded';
+  src: url('./assets/fonts/ZalandoSans_Expanded-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Zalando Sans expanded';
   src: url('./assets/fonts/ZalandoSans_Expanded-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Zalando Sans';
-  src: url('./assets/fonts/ZalandoSans_Expanded-ExtraBoldItalic.ttf') format('truetype');
+  font-family: 'Zalando Sans semicondensed';
+  src: url('.\assets\fonts\ZalandoSans_SemiCondensed-Medium.ttf') format('truetype');
   font-weight: 800;
-  font-style: italic;
+  font-style: normal;
 }
-
+@font-face {
+  font-family: 'Zalando Sans semicondensed';
+  src: url('.\assets\fonts\ZalandoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: bold;
+}
 /* Style global */
 body {
   margin: 0;
-  font-family: 'Zalando Sans', sans-serif;
+  font-family: 'Zalando Sans expanded', sans-serif;
   background-color: #fff;
   color: #111;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -65,7 +77,13 @@ body.dark-mode {
   padding: 0;
   box-sizing: border-box;
 }
-
+p, li, a{
+  font-family: 'Zalando Sans semicondensed', sans-serif;
+  font-size: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Zalando Sans expanded', sans-serif;
+}
 
 
 .lfired {

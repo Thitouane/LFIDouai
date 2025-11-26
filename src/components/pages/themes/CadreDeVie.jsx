@@ -1,9 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../styles/Programme.css";
+import { useNavigate } from "react-router-dom";
 import melenchon from '../../../assets/cadreDeVie.avif';
 
 export default function CadreDeVie() {
+  const navigate = useNavigate();
+
+  const goToAgir = () => {
+    navigate("../LFIDouai/agir");
+  };
+
   return (
     <article className="theme-page">
       <div className="theme-hero">
@@ -12,7 +19,7 @@ export default function CadreDeVie() {
           alt="surete"
         />
         <div className="theme-hero-overlay">
-          <h1>La sûreté : assurer le droit à la sûreté pour toutes et tous</h1>
+          <h1>Le cadre de vie : Pour des espaces agréables à vivre partout à Douai</h1>
         </div>
       </div>
 
@@ -25,9 +32,12 @@ export default function CadreDeVie() {
         </p>
         <br></br>
 
-
-        <h2 className="lfipurple">
-          Nos projets par quartier :
+        <div className="button-wrapper">
+          <button className="lfibutton" onClick={() => goToAgir()}> Contribuer au programme en indiquant les rues à refaire </button>
+        </div>
+        
+        <h2>
+          <span className="mesures-title">Nos projets par quartier :</span>
         </h2>
 
         <h3 className="lfigreen">
@@ -36,17 +46,17 @@ export default function CadreDeVie() {
                     
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Réfections</span> des résidences et rues principales (Château Delattre, Dr Charcot, Trannois, Jean Jaurès) – 4,5 M€
+            ➔ <span className="theme-bold">Réfections</span> des résidences et rues principales (Jean Jaurès, Château Delattre, Trannois, Dr Charcot)
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Requalification</span> de la Place de la Batellerie (0,8 ha) – 1,5 M€
+            ➔ <span className="theme-bold">Requalification</span> de la Place de la Batellerie
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Requalification</span> du Quai du Boisset – 900 000 €  
+            ➔ <span className="theme-bold">Requalification</span> du Quai du Boisset
           </li>
         <br></br>
         
@@ -59,27 +69,27 @@ export default function CadreDeVie() {
                     
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Réfection</span> de la cité de la Ferronnière – 4,5 M€
+            ➔ <span className="theme-bold">Réfection</span> de la cité de la Ferronnière
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Refaire</span> la route de la Solitude jusqu’à la route de Tournai (via collège Gayant) – 500 000 €
+            ➔ <span className="theme-bold">Refaire</span> a route de la Solitude jusqu’à la route de Tournai (via collège Gayant)
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Requalification</span> de la Place de Meaux (0,5 ha) – 1 M€
+            ➔ <span className="theme-bold">Requalification</span> de la Place de Meaux
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Construction</span> d’une salle de remise en forme municipale – 900 000 €
+            ➔ <span className="theme-bold">Construction</span> d’une salle de remise en forme municipale
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Réfection</span> de la résidence Norevie et rues avoisinantes – 900 000 €
+            ➔ <span className="theme-bold">Réfection</span> des rues de la Chapelle et des Peupliers
           </li>
         <br></br>
 
@@ -92,27 +102,27 @@ export default function CadreDeVie() {
                     
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Réfection</span> du Polygone – 2 M€
+            ➔ <span className="theme-bold">Réfection</span> des rues du Polygone
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Nouveau</span> parc public du Polygone (friche rue Rhin et Danube) – 1 M€
+            ➔ <span className="theme-bold">Création</span> d'un nouveau parc public, le Parc du Polygone sur la friche de la rue Rhin et Danube à côté des ateliers 
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Requalification</span> du Quai des Fontainettes – 900 000 €
+            ➔ <span className="theme-bold">Rénovation</span> du Quai des Fontainettes
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Réfection</span> de La Roseraie – 1,5 M€
+            ➔ <span className="theme-bold">Réfection</span> de La Roseraie
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Réfection</span> de La Brayelle – 1,5 M€
+            ➔ <span className="theme-bold">Réfection</span> de La Brayelle
           </li>
         <br></br>
 
@@ -125,12 +135,12 @@ export default function CadreDeVie() {
                     
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Réfection</span> de l’avenue Georges Clémenceau – 300 000 €
+            ➔ <span className="theme-bold">Réfection</span> de l’avenue Georges Clémenceau
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Aide</span> au ravalement des façades (rues Saint-Jacques, de la Madeleine et de Bellain) – 500 000 €
+            ➔ <span className="theme-bold">Grand plan d'aide</span> au ravalement des façades de la rue Saint-Jacques, de la rue de la Madeleine et de la rue de Bellain
           </li>
         <br></br>
 

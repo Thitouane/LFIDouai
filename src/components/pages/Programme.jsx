@@ -27,43 +27,49 @@ export default function Programme() {
       title: "Enfance et éducation",
       slug: "enfance-et-education",
       image: ecole,
-      excerpt: "L’enfance et l’éducation : le meilleur pour les futures générations",
+      excerpt: "Le meilleur pour les futures générations",
+    }, 
+    {
+      title: "Cadre de vie",
+      slug: "cadre-de-vie",
+      image: cadreDeVie,
+      excerpt: "Pour des espaces agréables à vivre partout à Douai",
     },
     {
       title: "Logement",
       slug: "logement",
       image: logement,
-      excerpt: "Le logement : un droit collectif d’habiter de façon digne et durable",
+      excerpt: "Un droit collectif d’habiter de façon digne et durable",
     },
     {
       title: "Entraide et services publics",
       slug: "entraide-et-services-publiques",
       image: servicePublique,
-      excerpt: "L’entraide et les services publics : mettre la solidarité au cœur de l’action municipale",
+      excerpt: "Mettre la solidarité au cœur de l’action municipale",
     },
     {
       title: "Sûreté",
       slug: "surete",
       image: surete,
-      excerpt: "La sûreté : assurer le droit à la sûreté pour toutes et tous",
+      excerpt: "Assurer le droit à la sûreté pour toutes et tous",
     },
     {
       title: "Économie et emploi",
       slug: "economie-et-emploi",
       image: emploi,
-      excerpt: "L’économie et l’emploi : répondre aux besoins des habitants",
+      excerpt: "Répondre aux besoins des habitants",
     },
     {
       title: "Écologie populaire",
       slug: "ecologie-populaire",
       image: ecolo,
-      excerpt: "L’écologie populaire : garantir notre avenir en commun",
+      excerpt: "Garantir notre avenir en commun",
     },
     {
       title: "Mobilité active",
       slug: "mobilite-active",
       image: mobiliteActive,
-      excerpt: "La mobilité active : bouger autrement, respirer mieux",
+      excerpt: "Bouger autrement, respirer mieux",
     },
     {
       title: "Démocratie locale",
@@ -75,19 +81,13 @@ export default function Programme() {
       title: "Engagement associatif",
       slug: "engagement-associatif",
       image: asso,
-      excerpt: "L’engagement associatif, sportif et culturel : le pilier d’un contre-pouvoir populaire",
+      excerpt: "Le pilier d’un contre-pouvoir populaire",
     },
     {
-      title: "Antiracisme",
+      title: "Antiracisme, féminisme et droits LGBTI",
       slug: "antiracisme",
       image: antiracisme,
       excerpt: "Une ville fière de sa diversité, forte de ses différences",
-    }, 
-    {
-      title: "Le cadre de vie",
-      slug: "cadre-de-vie",
-      image: cadreDeVie,
-      excerpt: "Pour des espaces agréables à vivre partout à Douai",
     }
   ];
 

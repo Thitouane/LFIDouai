@@ -14,6 +14,8 @@ export default function Footer() {
     <footer className="overlay-footer">
       
       <div className="menu-socials">
+        <h4 className="">Une liste soutenue par</h4>
+          <br />
           {/*
             <h1 className="title-home">
               <span className="douai-home">Douai</span>
@@ -24,7 +26,10 @@ export default function Footer() {
           */}
           <img src={logo} alt="Logo" className="logo-footer"/>
           <br />
-          <a href="https://www.facebook.com/LFIDouaisis/" target="_blank" rel="noreferrer">
+          <br />
+        <h4 className="">Suivez la campagne sur les réseaux sociaux</h4>
+          <br />
+          <a href="https://www.facebook.com/share/g/1Y68uxf6Vk/" target="_blank" rel="noreferrer">
               <img src={FaFacebookF} alt="Logo" className="logo invert-color"/>
           </a>
           <a href="https://www.instagram.com/lfi_douai/" target="_blank" rel="noreferrer">

@@ -39,15 +39,31 @@
   width: 64rem;
 }
 
+.bandeau-wrapper {
+  background-image: url('../../assets/douai-vue-de-haut.jpg');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+  width: 100%;
+  padding-top: 10%;  /* Ajuste ici : plus = plus haut */
+  padding-bottom: 10%;  /* Ajuste ici : plus = plus haut */
+  position: relative;
+}
+.bandeau-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(123, 19, 214, 0.45); /* rouge transparent, modifiable */
+  z-index: 1;
+}
+.bandeau-wrapper .bandeau-image {
+  position: relative;
+  z-index: 2;
+}
+
 
 @media (max-width: 768px) {
   .programme-block {
     width: auto;
   }
-
-  .bandeau-wrapper {
-    visibility: hidden;
-    height: 0;
-  }
-  
 }

@@ -1,12 +1,3 @@
-
-.rejoindre-setion {
-  background-color: #7C3AED; /* violet intense */
-  text-align: center;
-  padding: 2rem 2rem;
-  margin-top: 2rem;
-  width: 100%;
-}
-
 .agir-title {
   color: black;
   background-color: #FFC700;
@@ -41,7 +32,7 @@
   transform: scale(1.05);
 }
 
-.rejoindre-setion {
+.rejoindre-section {
   padding-top: 2rem;
   display: flex;
   justify-content: center; /* centre horizontalement */
@@ -85,7 +76,7 @@
 }
 
 @media (max-width: 768px) {
-  .rejoindre-setion  {
+  .rejoindre-section  {
     flex-direction: column; 
   }
 

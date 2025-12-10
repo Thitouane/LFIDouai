@@ -30,23 +30,9 @@ export default function Agir() {
 
   return (
     <section >
-      {location.pathname === "/LFIDouai/apropos" && (
-        <div className="rejoindre-setion">
-          <div className="agir-image">
-            <img src={group} alt="Agir" className="image-style" />
-          </div>
-          <div className="agir-content">
-            <h1> 
-              <span className="agir-title">Agir</span>
-            </h1>
-            <h2>ENSEMBLE POUR FAIRE MIEUX À DOUAI</h2>
-            <p style={{marginBottom:"1rem"}}>Rejoignez notre groupe d'action !</p>
-            <button className="cta-btn" onClick={handleActionClick}>Nous rejoindre</button>
-          </div>
-        </div>
-      )}
+     
       
-      <div className={`${location.pathname === "/LFIDouai/apropos" ? "form-section-b" : "form-section"}`}>
+      <div className="form-section">
         <h2 style={{textAlign:"center", marginBottom:"3rem"}}>
           <span className="agir-title"> Restons en contact</span>
         </h2>
@@ -112,7 +98,20 @@ export default function Agir() {
         )}
       </div>
       
-      
+       {location.pathname === "/LFIDouai/apropos" && (
+        <div className="rejoindre-section">
+          <div className="agir-image">
+            <img src={group} alt="Agir" className="image-style" />
+          </div>
+          <div className="agir-content">
+            <h1> 
+              <span className="agir-title">Agir</span>
+            </h1>
+            <h2 style={{marginBottom:"1rem"}}>Rejoignez notre groupe d'action !</h2>
+            <button className="cta-btn" onClick={handleActionClick}>Nous rejoindre</button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

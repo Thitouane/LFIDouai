@@ -248,7 +248,7 @@
 
 .theme-bold {
   text-decoration: underline;
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: clamp(1.5rem, 5vw, 1.5rem);
 }
 
 .back-button {

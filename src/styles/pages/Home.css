@@ -40,7 +40,7 @@
 }
 
 .bandeau-wrapper {
-  background-image: url('../../assets/douai-vue-de-haut.jpg');
+  background-image: url('../../assets/douai.png');
   background-size: cover;        
   background-position: center;   
   background-repeat: no-repeat; 
@@ -53,7 +53,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(123, 19, 214, 0.45); /* rouge transparent, modifiable */
   z-index: 1;
 }
 .bandeau-wrapper .bandeau-image {

@@ -37,113 +37,38 @@ export default function CadreDeVie() {
         </div>
         
         <h2>
-          <span className="mesures-title">Nos projets par quartier :</span>
+          <span className="mesures-title">Nos mesures pour faire mieux</span>
         </h2>
 
-        <h3 className="lfigreen">
-        Quartier de Dorignies :
-        </h3>
-                    
         <ul className="theme-list">
           <li>
-            ➔ <span className="theme-bold">Réfections</span> des résidences et rues principales (Jean Jaurès, Château Delattre, Trannois, Dr Charcot)
+            ➔ <span className="theme-bold">« Douai Partout »</span> : notre plan pour n'oublier aucun habitant
+        <br></br>
+Un programme pluriannuel sera lancé pour refaire les rues, trottoirs et places de tous les quartiers. Cette politique visera en priorité les zones les plus délaissées.
           </li>
         <br></br>
 
           <li>
-            ➔ <span className="theme-bold">Requalification</span> de la Place de la Batellerie
+            ➔ <span className="theme-bold">Transformer</span> les lieux de vie
+        <br></br>
+        Nous réaménagerons les places, parcs, quais, friches et zones dégradées pour en faire des espaces plus conviviaux.
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Requalification</span> du Quai du Boisset
-          </li>
-        <br></br>
-        
-        </ul>
-        <br></br>
-
-        <h3 className="lfigreen">
-        Quartier de Frais-Marais :
-        </h3>
-                    
-        <ul className="theme-list">
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> de la cité de la Ferronnière
-          </li>
-        <br></br>
-
-          <li>
-            ➔ <span className="theme-bold">Refaire</span> a route de la Solitude jusqu’à la route de Tournai (via collège Gayant)
+            ➔ <span className="theme-bold">Améliorer</span> l'image du centre-ville
+          <br></br>
+            Nous participerons financièrement au ravalement des façades des rues du centre-ville afin de redorer l'image du cœur de ville.
           </li>
         <br></br>
         
           <li>
-            ➔ <span className="theme-bold">Requalification</span> de la Place de Meaux
+            ➔ <span className="theme-bold">Une méthode</span> : co-construction et équité
+          <br></br>
+            Aucun quartier ne sera oublié. Chaque projet sera discuté localement avec les habitants, les associations et les acteurs de terrain.
+La répartition des investissements se fera selon un principe clair : réduire les inégalités historiques et améliorer d’abord là où les besoins sont les plus importants.
           </li>
         <br></br>
-        
-          <li>
-            ➔ <span className="theme-bold">Construction</span> d’une salle de remise en forme municipale
-          </li>
-        <br></br>
-
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> des rues de la Chapelle et des Peupliers
-          </li>
-        <br></br>
-
-        </ul>
-        <br></br>
-
-        <h3 className="lfigreen">
-        Faubourgs de Béthune et d’Esquerchin :
-        </h3>
-                    
-        <ul className="theme-list">
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> des rues du Polygone
-          </li>
-        <br></br>
-
-          <li>
-            ➔ <span className="theme-bold">Création</span> d'un nouveau parc public, le Parc du Polygone sur la friche de la rue Rhin et Danube à côté des ateliers 
-          </li>
-        <br></br>
-        
-          <li>
-            ➔ <span className="theme-bold">Rénovation</span> du Quai des Fontainettes
-          </li>
-        <br></br>
-        
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> de La Roseraie
-          </li>
-        <br></br>
-
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> de La Brayelle
-          </li>
-        <br></br>
-
-        </ul>
-        <br></br>
-
-        <h3 className="lfigreen">
-        Centre-ville :
-        </h3>
-                    
-        <ul className="theme-list">
-          <li>
-            ➔ <span className="theme-bold">Réfection</span> de l’avenue Georges Clémenceau
-          </li>
-        <br></br>
-
-          <li>
-            ➔ <span className="theme-bold">Grand plan d'aide</span> au ravalement des façades de la rue Saint-Jacques, de la rue de la Madeleine et de la rue de Bellain
-          </li>
-        <br></br>
-
         </ul>
         <br></br>
   

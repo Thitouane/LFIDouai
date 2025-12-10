@@ -41,15 +41,15 @@
 }
 
 @font-face {
-  font-family: 'Zalando Sans semicondensed';
+  font-family: 'Zalando Sans semicondensed normal';
   src: url('.\assets\fonts\ZalandoSans_SemiCondensed-Medium.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Zalando Sans semicondensed';
+  font-family: 'Zalando Sans semicondensed bold';
   src: url('.\assets\fonts\ZalandoSans_SemiCondensed-Bold.ttf') format('truetype');
-  font-weight: 900;
+  font-weight:1200;
   font-style: bold;
 }
 /* Style global */
@@ -78,7 +78,7 @@ body.dark-mode {
   box-sizing: border-box;
 }
 p, li, a{
-  font-family: 'Zalando Sans semicondensed', sans-serif;
+  font-family: 'Zalando Sans semicondensed normal', sans-serif;
   font-size: 24px;
 }
 h1, h2, h3, h4, h5, h6 {

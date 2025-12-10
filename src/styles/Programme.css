@@ -246,7 +246,7 @@
 }
 
 .theme-bold {
-  font-style: italic;
+  font-family: 'Zalando Sans semicondensed bold', sans-serif;
   font-size: clamp(1rem, 5vw, 1.5rem);
 }
 

@@ -36,14 +36,14 @@ export default function Antiracisme() {
 
         <ul className="theme-list">
           <li>
-            ➔ Mener des campagnes continues contre les violences sexistes, racistes et
+            ➔ <span className="theme-bold">Mener</span> des campagnes continues contre les violences sexistes, racistes et
 LGBTI-phobes dans l’espace public
           </li>
         <br></br>
 
           <li>
             ➔ <span >
-              Adopter un plan municipal contre les violences sexistes et sexuelles,
+              <span className="theme-bold">Adopter</span> un plan municipal contre les violences sexistes et sexuelles,
 comprenant :
         <br></br>
 ◆ l’augmentation des capacités d’hébergement d’urgence pour les
@@ -56,55 +56,55 @@ conjoints violents présumés en lien avec la justice et Douaisis Agglo.
         <br></br>
         
           <li>
-            ➔ Étudier la création d’hébergements d’urgence pour les personnes LGBTI
+            ➔ <span className="theme-bold">Étudier</span> la création d’hébergements d’urgence pour les personnes LGBTI
 victimes de discriminations
           </li>
         <br></br>
         
           <li>
-            ➔ <span>Financer des projets éducatifs et associatifs de lutte contre les idées
-d’extrême-droite</span>
+            ➔ <span className="theme-bold">Financer</span> des projets éducatifs et associatifs de lutte contre les idées
+d’extrême-droite
           </li>
         <br></br>
         
           <li>
-            ➔ Mettre en œuvre un plan de rattrapage pour assurer l’égalité salariale
+            ➔ <span className="theme-bold">Mettre</span> en œuvre un plan de rattrapage pour assurer l’égalité salariale
 femmes-hommes au sein de la collectivité
           </li>
         <br></br>
         
           <li>
-           ➔ <span>Revaloriser les rémunérations des métiers majoritairement féminins dans la
-fonction publique municipale</span>
+           ➔ <span className="theme-bold">Revaloriser</span> les rémunérations des métiers majoritairement féminins dans la
+fonction publique municipale
           </li>
         <br></br>
         
           <li>
-           ➔ Améliorer l’accueil des résidents étrangers : guide multilingue, point d’accueil
+           ➔ <span className="theme-bold">Améliorer</span> l’accueil des résidents étrangers : guide multilingue, point d’accueil
 en mairie, cours de français
           </li>
         <br></br>
         
           <li>
-           ➔ <span>Célébrer chaque année une Journée douaisienne de la solidarité avec le
-peuple palestinien</span>
+           ➔ <span className="theme-bold">Célébrer</span> chaque année une Journée douaisienne de la solidarité avec le
+peuple palestinien
           </li>
         <br></br>
         
           <li>
-           ➔ Nouer de nouveaux jumelages avec un pays du Maghreb et un pays
+           ➔ <span className="theme-bold">Nouer</span> de nouveaux jumelages avec un pays du Maghreb et un pays
 hispanophone
           </li>
         <br></br>
         
           <li>
-            ➔ <span>Renommer des rues en hommage à des figures populaires, féministes,
-ouvrières et décoloniales</span>
+            ➔ <span className="theme-bold">Renommer</span> des rues en hommage à des figures populaires, féministes,
+ouvrières et décoloniales
           </li>
         <br></br>
         
           <li>
-            ➔ Enrichir les bibliothèques municipales avec des ouvrages critiques, des
+            ➔ <span className="theme-bold">Enrichir</span> les bibliothèques municipales avec des ouvrages critiques, des
 sciences humaines et des presses engagées
           </li>
         </ul>

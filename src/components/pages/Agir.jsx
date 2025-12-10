@@ -41,7 +41,7 @@ export default function Agir() {
           <form onSubmit={sendEmail} className="form" >
             <div>
               <label>Prénom</label>
-              <input name="prenom" type="text" required placeholder="Prénom"
+              <input required name="prenom" type="text" placeholder="Prénom"
               style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}} />
             </div>
             <div>
@@ -57,7 +57,7 @@ export default function Agir() {
               />
             </div>
             <div>
-              <label>Téléphone</label>
+              <label>Téléphone (optionnel)</label>
               <input name="téléphone" type="tel" placeholder="Téléphone"
                 style={{width:"100%",padding:"12px",borderRadius:"6px",border:"1px solid #ccc"}}
               />

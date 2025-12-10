@@ -65,4 +65,9 @@
   .programme-block {
     width: auto;
   }
+
+  .bandeau-wrapper .bandeau-image {  
+    padding: clamp(2rem, 1vw, 1rem);
+  }
+
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect  } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Programme from "./pages/Programme";
-import Agir from "./pages/Agir";
+import Actu from "./pages/Actu";
 import Apropos from "./pages/Apropos";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -35,7 +35,7 @@ export default function Content() {
             <Route path="/LFIDouai" element={<Home />} />
             <Route path="/LFIDouai/programme" element={<Programme />} />
             <Route path="/LFIDouai/programme/:theme" element={<ThemePage />} />
-            <Route path="/LFIDouai/agir" element={<Agir />} />
+            <Route path="/LFIDouai/actu" element={<Actu />} />
             <Route path="/LFIDouai/apropos" element={<Apropos />} />
           </Routes>
         </main>

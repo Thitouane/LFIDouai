@@ -1,5 +1,6 @@
 import "../../styles/pages/Apropos.css";
 import beffroi from '../../assets/beffroi.jpg';
+import signature from '../../assets/signature-removebg.png';
 import Agir from "../pages/Agir";
 
 export default function Apropos() {
@@ -18,7 +19,8 @@ export default function Apropos() {
             <br></br><br></br><br></br>
             Nous voulons remettre l’humain au centre des décisions. Nous voulons rendre Douai plus juste, plus démocratique et plus vivable.
             <br></br><br></br><br></br>
-            Douai mérite mieux. Rejoignez-nous !
+            Douai mérite mieux. Rejoignez-nous !<br></br>
+            <img src={signature} alt="signature" className="signature" />
           </p>
           {/*
           <p>

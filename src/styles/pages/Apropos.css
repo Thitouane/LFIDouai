@@ -40,6 +40,11 @@
   margin-top: 2rem;
 }
 
+.signature {
+  height: 100px;
+  margin-left: 80%;   
+}
+
 @media (max-width: 768px) {
   .content-apropos  {
     flex-direction: column; 
@@ -51,5 +56,8 @@
 
   .apropos-block {
     padding: 2rem 2rem;
+  }
+  .signature {
+    margin-left: 50%;   
   }
 }

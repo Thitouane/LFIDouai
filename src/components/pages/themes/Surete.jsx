@@ -60,6 +60,11 @@ pare-balles, équipement de protection
                          <br></br>
                          
                            <li>
+                            ➔ <span className="theme-bold">Déployer</span> un éclairage public intelligent, avec capteurs de mouvement et gradation de l’intensité, dans les zones et aux horaires décidés en conseils de quartier.
+                           </li>
+                         <br></br>
+                         
+                           <li>
                              ➔ <span className="theme-bold">Évaluer</span> régulièrement les politiques de sûreté par des enquêtes en
 porte-à-porte et des retours d’habitants
 
@@ -78,7 +83,7 @@ sur son efficacité et son coût réel
 judiciaire, seule compétente pour lutter contre les infractions plus graves
                            </li>
                          <br></br>
-                         
+
                          </ul>
                          <br></br>
                  

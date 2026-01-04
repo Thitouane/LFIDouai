@@ -43,14 +43,13 @@ LGBTI-phobes dans l’espace public
 
           <li>
             ➔ <span >
-              <span className="theme-bold">Adopter</span> un plan municipal contre les violences sexistes et sexuelles,
-comprenant :
+              <span className="theme-bold">Adopter</span> un plan municipal contre les violences sexistes et sexuelles, doté d’un budget dédié, comprenant :
         <br></br>
-◆ l’augmentation des capacités d’hébergement d’urgence pour les
-femmes victimes,
+◆ l’augmentation des capacités d’hébergement d’urgence pour les femmes victimes ;
         <br></br>
-◆ la création d’un centre de prévention et d’accompagnement pour
-conjoints violents présumés en lien avec la justice et Douaisis Agglo.
+◆ la prise en charge des soins, de l’accompagnement juridique, de la garde d’enfants, de la sécurité et de la scolarité des enfants concernés ;
+        <br></br>
+◆ la création d’un centre de prévention et d’accompagnement pour conjoints violents présumés, en lien avec la justice et Douaisis Agglo.
             </span>
           </li>
         <br></br>
@@ -90,7 +89,24 @@ en mairie, cours de français
 peuple palestinien
           </li>
         <br></br>
-        
+
+          <li>
+           ➔ <span className="theme-bold">Adopter</span> une charte éthique excluant de la commande publique les entreprises violant le droit international.
+
+          </li>
+        <br></br>
+
+          <li>
+           ➔ <span className="theme-bold">Voter</span> une motion municipale condamnant le génocide en Palestine, l'illégalité de l'occupation israélienne et appelant la France à agir.
+
+          </li>
+        <br></br>
+
+          <li>
+           ➔ <span className="theme-bold">Développer</span> des coopérations avec des collectivités territoriales palestiniennes.
+          </li>
+        <br></br>
+
           <li>
            ➔ <span className="theme-bold">Nouer</span> de nouveaux jumelages avec un pays du Maghreb et un pays
 hispanophone

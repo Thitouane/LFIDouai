@@ -7,6 +7,7 @@ import Apropos from "./pages/Apropos";
 import Header from "./Header";
 import Footer from "./Footer";
 import Menu from "./Menu";
+import Patricia from "./pages/Patricia";
 import ThemePage from "./pages/ThemePage";
 import "../styles/Content.css";
 
@@ -35,6 +36,7 @@ export default function Content() {
             <Route path="/LFIDouai" element={<Home />} />
             <Route path="/LFIDouai/programme" element={<Programme />} />
             <Route path="/LFIDouai/programme/:theme" element={<ThemePage />} />
+            <Route path="/LFIDouai/patricia" element={<Patricia />} />
             <Route path="/LFIDouai/actu" element={<Actu />} />
             <Route path="/LFIDouai/apropos" element={<Apropos />} />
           </Routes>

@@ -35,6 +35,15 @@ export default function Actu() {
     image: observateur02,
     excerpt: "La campagne municipale des Insoumis de Douai a été lancée ce vendredi 28 novembre aux Salles d'Anchin devant une centaine de personnes. Il s'agissait de la première grande réunion publique de la liste portée par Patricia Boulan. 2 députés étaient présents pour la soutenir. La formation politique se présente pour la première fois sous ses propres couleurs dans la cité des géants."
   },
+  {
+    id: "observateur-03",
+    title: "Politique – Douai : Patricia Boulan, « la voix du peuple », sera la tête de liste LFI aux municipales",
+    date: "2025-10-05",
+    journal: "L'observateur",
+    link: "https://www.lobservateur.fr/patricia-boulan-lfi-douai-municipales/",
+    image: observateur02,
+    excerpt: "Ce dimanche, Ugo Bernalicis, député de la métropole lilloise, était l'invité du stand La France Insoumise (LFI) sur la braderie d'automne à Douai pour le dévoilement de la tête de liste du parti lors des municipales dans la cité des géants"
+  },
 ];
    
   return (

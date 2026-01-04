@@ -45,12 +45,16 @@ emploi précaire, en recherche d’emploi ou sans ressources
                    <br></br>
            
                      <li>
-                       ➔ <span className="theme-bold">Mettre en place</span> les chèques “Douai Solidaire” : 50€ distribués deux fois par
-an aux foyers modestes à dépenser dans les commerces de proximité bio,
-locaux et durables
+                       ➔ <span className="theme-bold">Créer</span> une Carte municipale spéciale Famille Monoparentale donnant la priorité en crèche, périscolaire et logement social, et ouvrant l’accès à des tarifs solidaires dans les services municipaux.
                      </li>
                    <br></br>
                    
+                     <li>
+                       ➔ <span className="theme-bold">Mettre en place</span> les chèques “Douai Solidaire” : 50€ distribués deux fois par
+an aux foyers modestes à dépenser dans les commerces de proximité.
+                     </li>
+                   <br></br>
+
                      <li>
                        ➔ <span className="theme-bold">Soutenir</span> les épiceries sociales et solidaires grâce à des subventions, des
 locaux ou une aide à l’achat de denrées alimentaires

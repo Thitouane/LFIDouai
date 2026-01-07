@@ -15,6 +15,7 @@ export default function Patricia() {
       </div>
 
        <div className="theme-content">
+          <p>
 Née dans le quartier de la Brayelle, Patricia Boulan a grandi au Faubourg de Béthune, aux Blocs Millions. Aujourd’hui habitante du centre-ville, elle le dit sans détour : maintenant qu’elle y est, elle y reste et elle n’en partira pour rien au monde.
 <br></br><br></br>
 Femme du peuple, Patricia a travaillé dur toute sa vie. Caissière puis hôtesse d’accueil chez Mammouth, devenu Auchan Sin-le-Noble, elle s’y est engagée syndicalement pour défendre ses collègues. Elle a terminé sa carrière sur une plateforme téléphonique à Lens. De ces années de travail, elle a tiré une conviction simple : rien ne s’obtient sans lutte collective.
@@ -28,6 +29,7 @@ Toujours présente dans les luttes, Patricia a manifesté aux côtés des Gilets
 Soutenue par les députés LFI Sophia Chikirou, Clémence Guetté, Aurélien Le Coq et Ugo Bernalicis qui saluent une battante rare dans le paysage politique, Patricia Boulan porte deux priorités claires : la rénovation complète des quartiers populaires abandonnés depuis 12 ans par Frédéric Chéreau et la création d’une brigade municipale du logement pour lutter contre les marchands de sommeil.
 <br></br><br></br>
 Son credo tient en quelques mots : tout donner pour celles et ceux qui n’ont jamais rien.
+          </p>
        </div>
     </article>
   );

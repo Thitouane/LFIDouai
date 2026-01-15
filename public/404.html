@@ -1,27 +1,13 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/src/assets/boulan2026-removebg.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Patricia Boulan - Douai 2026</title>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-      src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v17.0">
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNDK9XCRFL"></script>
+    <meta charset="utf-8" />
+    <title>Redirection…</title>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-LNDK9XCRFL');
+      // Redirige vers index.html en conservant l'URL
+      var path = window.location.pathname;
+      window.location.replace("/?redirect=" + path);
     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <body></body>
 </html>

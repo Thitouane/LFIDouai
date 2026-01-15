@@ -1,9 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Programme.css";
 
 import ToggleBlock from "../util/ToggleBlock.jsx"
-
 import mobiliteActive from '../../assets/mobiliteActive.jpg';
 import logement from '../../assets/logement.jpg';
 import surete from '../../assets/surete.jpg';

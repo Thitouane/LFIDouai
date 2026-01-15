@@ -42,7 +42,7 @@ export default function Apropos() {
         {/*<img src={beffroi} alt="Beffroi de Douai" className="beffroi" />*/}
       </div>
 
-      {location.pathname === "/LFIDouai/apropos" && (
+      {location.pathname === "/apropos" && (
         <Agir className="agir-apropos"/>
       )}
 

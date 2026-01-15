@@ -27,10 +27,10 @@ export default function Menu({ menuOpen, closeMenu }) {
   return (
     <div className={`overlay ${menuOpen ? "open" : ""}`}>
         <nav className="overlay-menu" onClick={closeMenu}>
-          <Link to="LFIDouai" className="lfired">Accueil</Link>
-          <Link to="LFIDouai/programme" className="lfigreen">Le programme</Link>
-          <Link to="LFIDouai/patricia" className="lfipurple">Patricia Boulan</Link>
-          <Link to="/LFIDouai/actu" className="lfiyellow">Actualités</Link>
+          <Link to="/" className="lfired">Accueil</Link>
+          <Link to="/programme" className="lfigreen">Le programme</Link>
+          <Link to="/patricia" className="lfipurple">Patricia Boulan</Link>
+          <Link to="/actu" className="lfiyellow">Actualités</Link>
         </nav>
 
 

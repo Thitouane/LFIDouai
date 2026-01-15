@@ -142,7 +142,7 @@ export default function Programme() {
           {THEMES.map((t) => (
             <article className="theme-card" key={t.slug}>
               <Link
-                to={`/LFIDouai/programme/${t.slug}`}
+                to={`/programme/${t.slug}`}
                 className="theme-link"
                 aria-label={`Voir ${t.title}`}
                 style={{ backgroundImage: `url(${t.image})` }}

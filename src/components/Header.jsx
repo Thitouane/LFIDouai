@@ -41,7 +41,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
 
   return (
     <header className="header">
-      <Link to="LFIDouai" className={` logo-link  ${hidden ? "header-hidden" : ""}`} onClick={() => setMenuOpen(false)}>
+      <Link to="/" className={` logo-link  ${hidden ? "header-hidden" : ""}`} onClick={() => setMenuOpen(false)}>
         {/*(menuOpen && isDarkMode) || (!menuOpen && !isDarkMode)  ? (
           <img src={logo_colored} alt="Logo" className="logo"/>
         ) : (*/

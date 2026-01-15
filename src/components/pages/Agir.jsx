@@ -98,7 +98,7 @@ export default function Agir() {
         )}
       </div>
       
-       {location.pathname === "/LFIDouai/apropos" && (
+       {location.pathname === "/apropos" && (
         <div className="rejoindre-section">
           <div className="agir-image">
             <img src={group} alt="Agir" className="image-style" />

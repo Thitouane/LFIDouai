@@ -38,7 +38,7 @@ export default function ThemePage() {
       <section className="theme-notfound">
         <h2>Thème introuvable</h2>
         <p>Le thème demandé n'existe pas.</p>
-        <a href="/LFIDouai/programme" className="back-button">
+        <a href="/programme" className="back-button">
           ← Retour au programme
         </a>
       </section>

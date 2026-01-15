@@ -89,7 +89,7 @@ climat, ateliers pratiques avec les associations et l’IMT</span>
         </ul>
         <br></br>
 
-        <Link to="/LFIDouai/programme" className="back-button">
+        <Link to="/programme" className="back-button">
           ← Retour au programme
         </Link>
       </div>

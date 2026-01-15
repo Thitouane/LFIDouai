@@ -81,7 +81,7 @@ gratuitement du matériel de bricolage, de jardinage ou de réparation
               </ul>
               <br></br>
       
-              <Link to="/LFIDouai/programme" className="back-button">
+              <Link to="/programme" className="back-button">
                 ← Retour au programme
               </Link>
             </div>

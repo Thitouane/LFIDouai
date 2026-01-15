@@ -8,7 +8,7 @@ export default function CadreDeVie() {
   const navigate = useNavigate();
 
   const goToAgir = () => {
-    navigate("../LFIDouai/agir");
+    navigate("../agir");
   };
 
   return (
@@ -72,7 +72,7 @@ La répartition des investissements se fera selon un principe clair : réduire l
         </ul>
         <br></br>
   
-        <Link to="/LFIDouai/programme" className="back-button">
+        <Link to="/programme" className="back-button">
           ← Retour au programme
         </Link>
       </div>

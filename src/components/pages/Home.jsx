@@ -13,7 +13,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   const goToProgramme = () => {
-    navigate("LFIDouai/programme");
+    navigate("/programme");
   };
 
   return (
@@ -29,7 +29,7 @@ export default function Home() {
 
       <article className="theme-card programme-block">
         <Link
-          to={`/LFIDouai/programme`}
+          to={`/programme`}
           className="theme-link"
           aria-label={`Voir Programme`}
           style={{ backgroundImage: `url(${programme})` }}

@@ -88,7 +88,7 @@ mieux desservir tous les quartiers
                                     </ul>
                                     <br></br>
                             
-                                    <Link to="/LFIDouai/programme" className="back-button">
+                                    <Link to="/programme" className="back-button">
                                       ← Retour au programme
                                     </Link>
                                   </div>

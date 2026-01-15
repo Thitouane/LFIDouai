@@ -126,7 +126,7 @@ sciences humaines et des presses engagées
         </ul>
         <br></br>
 
-        <Link to="/LFIDouai/programme" className="back-button">
+        <Link to="/programme" className="back-button">
           ← Retour au programme
         </Link>
       </div>

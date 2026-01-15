@@ -97,7 +97,7 @@ historique pour l’ouvrir à la culture, à la jeunesse et à l’événementie
                                           </ul>
                                           <br></br>
                                   
-                                          <Link to="/LFIDouai/programme" className="back-button">
+                                          <Link to="/programme" className="back-button">
                                             ← Retour au programme
                                           </Link>
                                         </div>

@@ -87,7 +87,7 @@ judiciaire, seule compétente pour lutter contre les infractions plus graves
                          </ul>
                          <br></br>
                  
-                         <Link to="/LFIDouai/programme" className="back-button">
+                         <Link to="/programme" className="back-button">
                            ← Retour au programme
                          </Link>
                        </div>

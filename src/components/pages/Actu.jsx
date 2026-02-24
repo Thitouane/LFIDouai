@@ -3,12 +3,22 @@ import { Link } from "react-router-dom";
 
 import insoumission01 from '../../assets/insoumission01.jpg';
 import observateur02 from '../../assets/observateur02.jpg';
+import observateur03 from '../../assets/observateur03.jpeg';
 import vdn01 from '../../assets/vdn01.jpeg';
 
 export default function Actu() {
 
   const articles = [
-    {
+  {
+    id: "observateur-04",
+    title: "Municipales à Douai : figure de la lutte contre les violences conjugales, Alexandra Lange rejoint la liste LFI",
+    date: "2026-02-21",
+    journal: "L'observateur",
+    link: "https://www.lobservateur.fr/douai-lfi-alexandra-lange-patricia-boulan/",
+    image: observateur03,
+    excerpt: "Lors du meeting de La France Insoumise (LFI) organisé à Douai Dorignies ce jeudi, Cyril Grandin a annoncé qu'Alexandra Lange rejoignait la liste menée par Patricia Boulan. Habitante de la commune depuis 15 ans, Alexandra est connue comme étant la première femme en France à avoir été acquittée du meurtre de son mari en 2012."
+  },
+  { 
     id: "insoumission-01",
     title: "Municipales à Douai : une vague d’espoir déferle avec Patricia Boulan",
     date: "2025-12-02",
@@ -43,7 +53,7 @@ export default function Actu() {
     link: "https://www.lobservateur.fr/patricia-boulan-lfi-douai-municipales/",
     image: observateur02,
     excerpt: "Ce dimanche, Ugo Bernalicis, député de la métropole lilloise, était l'invité du stand La France Insoumise (LFI) sur la braderie d'automne à Douai pour le dévoilement de la tête de liste du parti lors des municipales dans la cité des géants"
-  },
+  }
 ];
    
   return (

@@ -1,7 +1,46 @@
 import React from "react";
+import "../../styles/pages/Patricia.css";
+import Liste from "../pages/Liste";
+
 import melenchon from '../../assets/5931677052614413397.jpg';
 
+import hugo from '../../assets/hugo.jpg';
+import claudine from '../../assets/claudine.jpg';
+import louise from '../../assets/louise.jpg';
+import morgan from '../../assets/morgan.jpg';
+
 export default function Patricia() {
+  const candidates = [
+    {
+      name: "Louise Sobecki",
+      age: 24,
+      taf: "Opératrice en mutuelle santé",
+      role: "De mon premier bisou à Binbin à l'obtention de mon baccalauréat au lycée Châtelet, Douai m'a vue m'épanouir. Aujourd'hui, je souhaite lui rendre ce qu'elle m'a donné en m'engageant pour la rendre plus attractive et plus ambitieuse vis-à-vis de sa jeunesse. Douai mérite de devenir une ville où l'on grandit et où l'on choisit de rester.",
+      photo: louise,
+    },
+    {
+      name: "Morgan Richard",
+      age: 30,
+      taf: "Préparateur en boulangerie",
+      role: "Originaire du quartier des Asturies à Auby, mon parcours, marqué par des préjugés et des injures homophobes, a forgé ma détermination à lutter contre toute forme d'injustice. Aujourd'hui préparateur en boulangerie, je suis engagé pour l'égalité et la dignité de tous.",
+      photo: morgan,
+    },
+    {
+      name: "Hugo Barge",
+      age: 25,
+      taf: "Agent du logement social",
+      role: "J’ai grandi à Râches et j'ai étudié au lycée Corot de Douai, ville de mes premiers engagements. Confronté très tôt aux discriminations et aux inégalités, je veux agir concrètement pour une ville plus juste et solidaire.",
+      photo: hugo,
+    },
+    {
+      name: "Claudine Auguste",
+      age: 62,
+      taf: "Retraitée de la fonction publique",
+      role: "Douaisienne de naissance, j'ai exercé mes fonctions à la mairie de Douai au service des habitants. Engagée pour l'amélioration des conditions de travail des agents, je poursuis mon action avec détermination, guidée par des valeurs de justice et de solidarité.",
+      photo: claudine,
+    },
+  ];
+
   return (
     <article className="theme-page">
       <div className="theme-hero">
@@ -31,6 +70,9 @@ Soutenue par les députés LFI Sophia Chikirou, Clémence Guetté, Aurélien Le 
 Son credo tient en quelques mots : tout donner pour celles et ceux qui n’ont jamais rien.
           </p>
        </div>
+    
+    <h1> <span className="agir-title">La liste</span> </h1>
+      <Liste candidates={candidates} />
     </article>
   );
 }

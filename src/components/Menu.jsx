@@ -29,7 +29,7 @@ export default function Menu({ menuOpen, closeMenu }) {
         <nav className="overlay-menu" onClick={closeMenu}>
           <Link to="/" className="lfired">Accueil</Link>
           <Link to="/programme" className="lfigreen">Le programme</Link>
-          <Link to="/patricia" className="lfipurple">Patricia Boulan</Link>
+          <Link to="/patricia" className="lfipurple">Nos candidats</Link>
           <Link to="/actu" className="lfiyellow">Actualités</Link>
         </nav>
 

@@ -26,18 +26,18 @@ export default function Patricia() {
       photo: morgan,
     },
     {
-      name: "Hugo Barge",
-      age: 25,
-      taf: "Agent du logement social",
-      role: "J’ai grandi à Râches et j'ai étudié au lycée Corot de Douai, ville de mes premiers engagements. Confronté très tôt aux discriminations et aux inégalités, je veux agir concrètement pour une ville plus juste et solidaire.",
-      photo: hugo,
-    },
-    {
       name: "Claudine Auguste",
       age: 62,
       taf: "Retraitée de la fonction publique",
       role: "Douaisienne de naissance, j'ai exercé mes fonctions à la mairie de Douai au service des habitants. Engagée pour l'amélioration des conditions de travail des agents, je poursuis mon action avec détermination, guidée par des valeurs de justice et de solidarité.",
       photo: claudine,
+    },
+    {
+      name: "Hugo Barge",
+      age: 25,
+      taf: "Agent du logement social",
+      role: "J’ai grandi à Râches et j'ai étudié au lycée Corot de Douai, ville de mes premiers engagements. Confronté très tôt aux discriminations et aux inégalités, je veux agir concrètement pour une ville plus juste et solidaire.",
+      photo: hugo,
     },
   ];
 

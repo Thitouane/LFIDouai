@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/pages/Patricia.css";
 import Liste from "../pages/Liste";
+import CandidatListe from "../pages/CandidatListe";
 
 import melenchon from '../../assets/5931677052614413397.jpg';
-
 import hugo from '../../assets/hugo.jpg';
 import claudine from '../../assets/claudine.jpg';
 import louise from '../../assets/louise.jpg';
@@ -90,6 +90,233 @@ export default function Patricia() {
     },
   ];
 
+  const otherCandidates = [
+    {
+      name: "Lucas Dauphin",
+      age: 22,
+      taf: "Etudiant infirimier",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Martine Derveaux Cherbuis",
+      age: 70,
+      taf: "professeure retraitée",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Thitouane Helle",
+      age: 26,
+      taf: "ingenieur logiciel",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Dominique Thevenet",
+      age: 72,
+      taf: "retraitée",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Thomas Legras",
+      age: 32,
+      taf: "sans emploi",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Taïna Bigot",
+      age: 23,
+      taf: "Employée de magasin",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Bruno Tassart",
+      age: 65,
+      taf: "Agent SNCF retraité",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Debora Caron",
+      age: 33,
+      taf: "Infirmière",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Nicolas Nowicki",
+      age: 62,
+      taf: "Agent EDF retraité",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Mariam Ezaoui",
+      age: 50,
+      taf: "Cheffe d'équipe contrôle qualité",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Marc Auguste",
+      age: 64,
+      taf: "Contrôleur retraité",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Julie-Marie Duhamel",
+      age: 45,
+      taf: "Ouvrière logistique",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Jean-Pierre Walczak",
+      age: 65,
+      taf: "Ouvrier industriel retraité",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Jocelyne Leleux",
+      age: 62,
+      taf: "Retraitée",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Freddy Bancourt",
+      age: 50,
+      taf: "Responsable d'équipe",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Leslie Lefebvre",
+      age: 42,
+      taf: "Auto-entrepreneuse",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Victor Passé",
+      age: 23,
+      taf: "Étudiant à l'ENS",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Etiennette Duhem",
+      age: 60,
+      taf: "Agente administrative",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Emir Cerimovic",
+      age: 42,
+      taf: "Graphiste game designer",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Lou-Anne Redon",
+      age: 33,
+      taf: "Professeure de maths",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Kevin Heringhuel",
+      age: 27,
+      taf: "Chauffeur-livreur",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Sylvie Bienaime",
+      age: 69,
+      taf: "Professeure retraitée",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Habib Latreche",
+      age: 48,
+      taf: "Agent logistique",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Alicia Carton",
+      age: 27,
+      taf: "Assistante comptable",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Nadji Ben Youcef",
+      age: 23,
+      taf: "Sans emploi",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Fatima Bekhti",
+      age: 54,
+      taf: "Professeure des écoles",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Charles-Henri Hernu",
+      age: 40,
+      taf: "Psychiatre",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Laurie Pinon",
+      age: 31,
+      taf: "Professeure des écoles",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Allan Lefebvre",
+      age: 38,
+      taf: "Auto-entrepreneur",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Florence Fievet",
+      age: 53,
+      taf: "Assistante comptable",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Mohamed Touenti",
+      age: 48,
+      taf: "Commercial",
+      role: "",
+      photo: null,
+    },
+    {
+      name: "Ariana Welle",
+      age: 35,
+      taf: "Professeure de lettres",
+      role: "",
+      photo: null,
+    },
+  ];
+
   return (
     <article className="theme-page">
       <div className="theme-hero">
@@ -122,6 +349,7 @@ Son credo tient en quelques mots : tout donner pour celles et ceux qui n’ont j
     
     <h1> <span className="agir-title">La liste</span> </h1>
       <Liste candidates={candidates} />
+      <CandidatListe candidates={otherCandidates} />
     </article>
   );
 }

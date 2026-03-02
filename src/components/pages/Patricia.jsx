@@ -8,6 +8,13 @@ import hugo from '../../assets/hugo.jpg';
 import claudine from '../../assets/claudine.jpg';
 import louise from '../../assets/louise.jpg';
 import morgan from '../../assets/morgan.jpg';
+import malik from '../../assets/malik.png';
+import alexandra from '../../assets/alexandra.png';
+import paul from '../../assets/paul.png';
+import sophie from '../../assets/sophie.png';
+import yann from '../../assets/yann.png';
+import charlotte from '../../assets/charlotte.png';
+
 
 export default function Patricia() {
   const candidates = [
@@ -38,6 +45,48 @@ export default function Patricia() {
       taf: "Agent du logement social",
       role: "J’ai grandi à Râches et j'ai étudié au lycée Corot de Douai, ville de mes premiers engagements. Confronté très tôt aux discriminations et aux inégalités, je veux agir concrètement pour une ville plus juste et solidaire.",
       photo: hugo,
+    },
+    {
+      name: "Malik Salmi",
+      age: 51,
+      taf: "cadre industriel",
+      role: "Né dans le Valenciennois, je suis revenu en France en 2018 après plusieurs années en entreprise à l'étranger. Marié et père de 2 enfants, je m'engage pour ma ville d'adoption, Douai, afin d'agir concrètement pour son avenir.",
+      photo: malik,
+    },
+    {
+      name: "Alexandra Lange",
+      age: 46,
+      taf: "employée maraîchère",
+      role: "Née à Douai, profondément attachée à cette région, je m'y engage depuis des années. Militante féministe, je combats les injustices et les violences qui traversent notre société.",
+      photo: alexandra,
+    },
+    {
+      name: "Paul Deregnaucourt",
+      age: 18,
+      taf: "étudiant en prépa",
+      role: "Né à Dechy, j'ai passé mes années lycée à Douai. Très tôt révolté par les injustices, je m'engage dans cette élection pour une société libre, équitable et solidaire.",
+      photo: paul,
+    },
+    {
+      name: "Sophie Debusschère",
+      age: 42,
+      taf: "assistante administrative",
+      role: "Militante pour les droits humains et l'égalité, j'ai choisi de m'engager pour la ville qui m'a accueillie il y a 7 ans. Je veux faire de Douai une ville solidaire et agréable à vivre.",
+      photo: sophie,
+    },
+    {
+      name: "Yann Bogdan",
+      age: 41,
+      taf: "enseignant au collège Gayant",
+      role: "Né en région parisienne, j'ai posé mes valises à Douai il y a 3 ans. Je m'engage pour faire de Douai une ville où Egalité et Fraternité ne sont pas des mots vides de sens.",
+      photo: yann,
+    },
+    {
+      name: "Charlotte Siebel",
+      age: 43,
+      taf: "Charlotte Siebel",
+      role: "Douaisienne de naissance, profondément attachée à ma ville, je m'engage aux côtés de la France insoumise pour défendre une Douai libre, tolérante et solidaire, fidèle aux valeurs de justice et de dignité.",
+      photo: charlotte,
     },
   ];
 
